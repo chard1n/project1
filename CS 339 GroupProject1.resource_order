@@ -17,11 +17,23 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+<<<<<<< HEAD
     {"name":"sPocket_Knife","order":4,"path":"sprites/sPocket_Knife/sPocket_Knife.yy",},
     {"name":"sSkullItem","order":2,"path":"sprites/sSkullItem/sSkullItem.yy",},
     {"name":"sBone_Club","order":5,"path":"sprites/sBone_Club/sBone_Club.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sRock_Item","order":1,"path":"sprites/sRock_Item/sRock_Item.yy",},
     {"name":"sBone_Item","order":3,"path":"sprites/sBone_Item/sBone_Item.yy",},
+=======
+    {"name":"Recipe","order":4,"path":"scripts/Recipe/Recipe.yy",},
+    {"name":"text_align","order":5,"path":"scripts/text_align/text_align.yy",},
+    {"name":"oInventory","order":1,"path":"objects/oInventory/oInventory.yy",},
+    {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"sRock_Item","order":1,"path":"sprites/sRock_Item/sRock_Item.yy",},
+    {"name":"is_between","order":3,"path":"scripts/is_between/is_between.yy",},
+    {"name":"Inventory","order":2,"path":"scripts/Inventory/Inventory.yy",},
+    {"name":"draw_set","order":1,"path":"scripts/draw_set/draw_set.yy",},
+    {"name":"sHotbar_Box","order":2,"path":"sprites/sHotbar_Box/sHotbar_Box.yy",},
+>>>>>>> 17f858ece2e8ef2c0321941c30681c16d1d416b5
   ],
 }

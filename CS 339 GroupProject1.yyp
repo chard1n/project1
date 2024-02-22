@@ -34,15 +34,32 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+<<<<<<< HEAD
     {"id":{"name":"sPocket_Knife","path":"sprites/sPocket_Knife/sPocket_Knife.yy",},},
     {"id":{"name":"sSkullItem","path":"sprites/sSkullItem/sSkullItem.yy",},},
+=======
+    {"id":{"name":"fn_Ubuntu","path":"fonts/fn_Ubuntu/fn_Ubuntu.yy",},},
+    {"id":{"name":"Recipe","path":"scripts/Recipe/Recipe.yy",},},
+    {"id":{"name":"text_align","path":"scripts/text_align/text_align.yy",},},
+    {"id":{"name":"draw_reset","path":"scripts/draw_reset/draw_reset.yy",},},
+    {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},},
+>>>>>>> 17f858ece2e8ef2c0321941c30681c16d1d416b5
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sBone_Club","path":"sprites/sBone_Club/sBone_Club.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sRock_Item","path":"sprites/sRock_Item/sRock_Item.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"sBone_Item","path":"sprites/sBone_Item/sBone_Item.yy",},},
+=======
+    {"id":{"name":"is_between","path":"scripts/is_between/is_between.yy",},},
+>>>>>>> 17f858ece2e8ef2c0321941c30681c16d1d416b5
     {"id":{"name":"sStick_Item","path":"sprites/sStick_Item/sStick_Item.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Inventory","path":"scripts/Inventory/Inventory.yy",},},
+    {"id":{"name":"draw_set","path":"scripts/draw_set/draw_set.yy",},},
+    {"id":{"name":"sHotbar_Box","path":"sprites/sHotbar_Box/sHotbar_Box.yy",},},
+    {"id":{"name":"sInventory_Box","path":"sprites/sInventory_Box/sInventory_Box.yy",},},
+    {"id":{"name":"sInventory_Recipe_Box","path":"sprites/sInventory_Recipe_Box/sInventory_Recipe_Box.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
