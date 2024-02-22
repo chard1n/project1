@@ -17,6 +17,10 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+<<<<<<< HEAD
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
+=======
+    {"name":"sRock_Item","order":1,"path":"sprites/sRock_Item/sRock_Item.yy",},
+>>>>>>> 363ed31b9a8f73c40c1075d6c2cfcdcac6fa9a80
   ],
 }
