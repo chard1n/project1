@@ -7,7 +7,7 @@ inventory = new Recipe();
 inventory.item_add("Rock", 3, sRock_Item);
 inventory.item_add("Stick", 2, sStick_Item);
 inventory.item_add("Bone", 1, sBone_Item);
-inventory.item_add("Skull", 1, sSkull_Item);
+//inventory.item_add("Skull", 1, sSkull_Item);
 
 // recipies
 inventory.recipe_add("Bone_Club", [
@@ -27,8 +27,8 @@ inventory.recipe_add("Bone_Club", [
 inventory.recipe_add("Rock", [
 	{
 		name: "Rock",
-		quantity: 1
-	}], [{
+		quantity: 3
+	},], [{
 		name: "Rock",
 		quantity: 2,
 		sprite: sRock_Item
@@ -52,6 +52,7 @@ color_background = #55507a;
 color_border = #36234a;
 color_inventory_text = c_white;
 color_inventory_highlight = c_white;
+color_inventory_disabled = c_black;
 
 last_selected = noone;
 opened = false;

@@ -2,6 +2,19 @@ function Recipe() : Inventory() constructor {
 	
 	_recipies = [];
 	
+	recipe_sort = function() {
+		_available_recipies = [];
+		_disabled_recipies = [];
+		for (var i = 0; i < array_length(_recipies); i++) {
+			if(recipe_has(_recipies[i].name)) {
+				array_push(_available_recipies, _recipies[i]);
+			} else {
+				array_push(_disabled_recipies, _recipies[i]);
+			}
+		}
+		_recipies = array_concat(_available_recipies, _disabled_recipies);
+	}
+	
 	recipe_find = function(_name) {
 		for (var i = 0; i < array_length(_recipies); i++) {
 			if(_name == _recipies[i].name) {
@@ -56,6 +69,7 @@ function Recipe() : Inventory() constructor {
 	}
 	
 	recipe_get = function() {
+		recipe_sort();
 		return _recipies;
 	}
 }

@@ -162,6 +162,7 @@ var pos_x = (ui_border_size * 3) + 4;
 for(var recipe_index = 0; recipe_index < array_length(_recipies); recipe_index++) {
 	var pos_y = (recipe_index * (ui_inventory_margin + ui_inventory_box)) - scroll_value;
 	
+		
 		draw_sprite(sInventory_Recipe_Box, 0, pos_x, pos_y);
 		draw_sprite(_recipies[recipe_index].sprite, 0, pos_x, pos_y);
 	
@@ -170,25 +171,57 @@ for(var recipe_index = 0; recipe_index < array_length(_recipies); recipe_index++
 	
 		var requirement_string = "";
 		for(var requirement_index = 0; requirement_index < array_length(_recipies[recipe_index].requirements); requirement_index++) {
-			requirement_string += $"{_recipies[recipe_index].requirements[requirement_index].name}: {_recipies[recipe_index].requirements[requirement_index].quantity}  ";
-
-		draw_text(pos_x + 56, pos_y + 32 + 16, $"REQ: {requirement_string}");
+			requirement_string += $"{_recipies[recipe_index].requirements[requirement_index].name}: {_recipies[recipe_index].requirements[requirement_index].quantity}";
+			if(requirement_index < array_length(_recipies[recipe_index].requirements) - 1) {
+				requirement_string += ", ";
+			}
+		}
 		
-	}
-	
-	// hover
-	if(is_between(mx, pos_x + ui_padding_x, pos_x + ui_padding_x + ui_panel_left - 64)) {
-		if(is_between(my, pos_y + ui_padding_y + (ui_border_size * 8), pos_y + ui_padding_y + ui_inventory_box + (ui_border_size * 8))) {
-			draw_set(color_inventory_highlight, 0.2);
+		requirement_string = $"REQ: {requirement_string}";
+		
+		max_width = 198;
+		if(string_width(requirement_string) > max_width) {
+			draw_text_ext(pos_x + 56, pos_y + 25 + 16, requirement_string, 16, max_width);
+		} else {
+			draw_text(pos_x + 56, pos_y + 25 + 16, requirement_string);
+		}
+		
+		if(!inventory.recipe_has(_recipies[recipe_index].name)) {
+			draw_set(color_inventory_disabled, 0.5);
 			draw_rectangle(
 				pos_x,
 				pos_y,
 				pos_x + ui_panel_left - 64,
 				pos_y + ui_inventory_box,
 				false
-			);
-			
+			);	
 			draw_reset();
+		}
+		
+		
+	
+}
+
+// hover
+pos_x = (ui_border_size * 3) + 4;
+for(var recipe_index = 0; recipe_index < array_length(_recipies); recipe_index++) {
+	pos_y = (recipe_index * (ui_inventory_margin + ui_inventory_box)) - scroll_value;
+	if(is_between(mx, pos_x + ui_padding_x, pos_x + ui_padding_x + ui_panel_left - 64)) {
+		if(is_between(my, pos_y + ui_padding_y + (ui_border_size * 8), pos_y + ui_padding_y + ui_inventory_box + (ui_border_size * 8))) {
+			
+			if(inventory.recipe_has(_recipies[recipe_index].name)) {
+				draw_set(color_inventory_highlight, 0.2);
+				draw_rectangle(
+					pos_x,
+					pos_y,
+					pos_x + ui_panel_left - 64,
+					pos_y + ui_inventory_box,
+					false
+				);
+			
+				draw_reset();
+			}
+			
 		}
 	}
 }
