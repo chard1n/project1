@@ -1,4 +1,6 @@
 if(!opened) {
+	last_selected = noone;
+	selected_index = -1;
 	return;	
 }
 
@@ -29,20 +31,15 @@ if(mouse_check_button_released(mb_left)) {
 					if(is_between(my, pos_y, pos_y + ui_inventory_box)) {
 						var inventory_index = (row * inventory.get_width()) + column;
 						// Check if we have an inventory item here
-						if(inventory_items[inventory_index] != noone) {
-							show_debug_message($"Using {inventory_items[inventory_index].name}");
+						if(inventory_items[inventory_index] != noone && inventory_index != selected_index) {
 							last_selected = inventory_items[inventory_index].name;
-							show_debug_message(inventory_index)
-						
+							selected_index = inventory_index;
 						} else {		
-							
 							if(last_selected != noone) {
 								inventory.item_move(last_selected, inventory_index);
 								last_selected = noone;
+								selected_index = -1;
 							}
-							
-							show_debug_message("No inventory item here !");
-							show_debug_message(inventory_index)
 						}
 					}
 				}

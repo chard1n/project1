@@ -104,6 +104,10 @@ for (var row = 0; row < inventory.get_height(); row++) {
 		
 		var inventory_index = (row * inventory.get_width()) + column;
 		if(inventory_items[inventory_index] != noone) {
+			if(selected_index == inventory_index) {
+				continue; //This will be drawn later
+			}
+			
 			// draw inventory sprite
 			draw_sprite(inventory_items[inventory_index].sprite, 0, pos_x, pos_y);
 		}
@@ -122,9 +126,9 @@ for (var row = 0; row < inventory.get_height(); row++) {
 				draw_reset();
 			}
 		}
-		
+
 		//// now do this again but for quantity only
-		if(inventory_items[inventory_index] != noone) {
+		if(inventory_items[inventory_index] != noone && selected_index != inventory_index ) {
 			draw_set(#232323, 1);
 			draw_circle(
 				pos_x + ui_inventory_box,
@@ -145,6 +149,31 @@ for (var row = 0; row < inventory.get_height(); row++) {
 	}
 }
 
+for(var itemIdx = 0; itemIdx < array_length(inventory_items); itemIdx++) {
+		if(inventory_items[itemIdx] == noone || selected_index != itemIdx) continue;
+	
+		// Draw selected sprite on mouse
+		draw_sprite_ext(inventory_items[itemIdx].sprite, 0, mx - 32, my - 32,1,1,0,c_white,0.5);
+		
+		draw_set(#232323, 1);
+		draw_circle(
+			mx + ui_inventory_box - 32,
+			my + ui_inventory_box - 32,
+			14,
+			false
+		);
+			
+		draw_set(c_white, 1);
+		text_align(fa_center, fa_middle);
+			
+		draw_text(
+			mx + ui_inventory_box - 32,
+			my + ui_inventory_box - 32,
+			inventory_items[itemIdx].quantity
+		);
+				
+}
+		
 
 //draw_set(c_red, 1);
 //draw_rectangle(ui_padding_x + ui_border_size, ui_padding_y + ui_border_size, ui_panel_left + ui_padding_x, g_height - ui_padding_y - ui_border_size, false)

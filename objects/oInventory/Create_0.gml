@@ -55,5 +55,6 @@ color_inventory_highlight = c_white;
 color_inventory_disabled = c_black;
 
 last_selected = noone;
+selected_index = -1;
 opened = false;
 scroll_value = 0;
