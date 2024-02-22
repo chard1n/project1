@@ -1,7 +1,9 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"merge_number","order":1,"path":"scripts/merge_number/merge_number.yy",},
     {"name":"sPlane","order":1,"path":"sprites/sPlane/sPlane.yy",},
+    {"name":"oDayNightCycle","order":2,"path":"objects/oDayNightCycle/oDayNightCycle.yy",},
     {"name":"oPlane","order":1,"path":"objects/oPlane/oPlane.yy",},
   ],
 }

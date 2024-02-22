@@ -7,12 +7,12 @@ inventory = new Recipe();
 inventory.item_add("Rock", 3, sRock_Item);
 inventory.item_add("Stick", 2, sStick_Item);
 inventory.item_add("Bone", 1, sBone_Item);
-//inventory.item_add("Skull", 1, sSkull_Item);
+inventory.item_add("Skull", 1, sSkull_Item);
 
 // recipies
 inventory.recipe_add("Bone_Club", [
 	{
-		name: "Bone",
+		name: "Stick",
 		quantity: 1
 	},
 	{
