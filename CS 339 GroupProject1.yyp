@@ -34,14 +34,10 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-<<<<<<< HEAD
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
-    {"id":{"name":"testSprite","path":"sprites/testSprite/testSprite.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
-=======
     {"id":{"name":"sRock_Item","path":"sprites/sRock_Item/sRock_Item.yy",},},
     {"id":{"name":"sStick_Item","path":"sprites/sStick_Item/sStick_Item.yy",},},
->>>>>>> 363ed31b9a8f73c40c1075d6c2cfcdcac6fa9a80
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
