@@ -1,4 +1,7 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"sPlane","order":1,"path":"sprites/sPlane/sPlane.yy",},
+    {"name":"oPlane","order":1,"path":"objects/oPlane/oPlane.yy",},
+  ],
 }

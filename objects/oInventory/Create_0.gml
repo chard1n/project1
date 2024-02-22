@@ -6,23 +6,23 @@ inventory = new Recipe();
 
 inventory.item_add("Rock", 3, sRock_Item);
 inventory.item_add("Stick", 2, sStick_Item);
-/*
-inventory.item_add("Wood", 2, spr_Item_Wood);
-inventory.item_add("Stone", 10, spr_Item_Stone);
-inventory.item_add("Fish", 10, spr_Item_Fish);
-inventory.item_add("Stick", 4, spr_Item_Stick);
-*/
+inventory.item_add("Bone", 1, sBone_Item);
+inventory.item_add("Skull", 1, sSkull_Item);
 
 // recipies
-inventory.recipe_add("Stick", [
+inventory.recipe_add("Bone_Club", [
 	{
-		name: "Stick",
+		name: "Bone",
+		quantity: 1
+	},
+	{
+		name: "Skull",
 		quantity: 1
 	}], [{
-		name: "Stick",
-		quantity: 2,
-		sprite: sStick_Item
-	}], sStick_Item);
+		name: "Bone_club",
+		quantity: 1,
+		sprite: sBone_Club
+	}], sBone_Club);
 	
 inventory.recipe_add("Rock", [
 	{
