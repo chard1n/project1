@@ -17,7 +17,11 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"sPocket_Knife","order":4,"path":"sprites/sPocket_Knife/sPocket_Knife.yy",},
+    {"name":"sSkullItem","order":2,"path":"sprites/sSkullItem/sSkullItem.yy",},
+    {"name":"sBone_Club","order":5,"path":"sprites/sBone_Club/sBone_Club.yy",},
     {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sRock_Item","order":1,"path":"sprites/sRock_Item/sRock_Item.yy",},
+    {"name":"sBone_Item","order":3,"path":"sprites/sBone_Item/sBone_Item.yy",},
   ],
 }
