@@ -12,5 +12,23 @@ if(oInventory.opened == false && _keyInventory) {
 }
 
 // Movement
-y = y + (vertMove * spd)
-x = x + (horzMove * spd)
+yspd = vertMove * spd
+xspd = horzMove * spd
+
+y += yspd
+x += xspd
+
+// Collision
+// ADD ANY OTHER COLLISION TO THIS ARRAY
+if (place_meeting(x + xspd, y, [oBush])) {
+	x -= xspd
+}
+
+if (place_meeting(x, y + yspd, [oBush])) {
+	y -= yspd
+}
+
+
+
+
+

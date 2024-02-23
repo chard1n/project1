@@ -36,6 +36,7 @@
   "resources": [
     {"id":{"name":"sPocket_Knife_Item","path":"sprites/sPocket_Knife_Item/sPocket_Knife_Item.yy",},},
     {"id":{"name":"sSkull_Item","path":"sprites/sSkull_Item/sSkull_Item.yy",},},
+    {"id":{"name":"sBush","path":"sprites/sBush/sBush.yy",},},
     {"id":{"name":"fn_Ubuntu","path":"fonts/fn_Ubuntu/fn_Ubuntu.yy",},},
     {"id":{"name":"merge_number","path":"scripts/merge_number/merge_number.yy",},},
     {"id":{"name":"Recipe","path":"scripts/Recipe/Recipe.yy",},},
@@ -48,6 +49,7 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sRock_Item","path":"sprites/sRock_Item/sRock_Item.yy",},},
     {"id":{"name":"sBone_Item","path":"sprites/sBone_Item/sBone_Item.yy",},},
+    {"id":{"name":"oBush","path":"objects/oBush/oBush.yy",},},
     {"id":{"name":"is_between","path":"scripts/is_between/is_between.yy",},},
     {"id":{"name":"oDayNightCycle","path":"objects/oDayNightCycle/oDayNightCycle.yy",},},
     {"id":{"name":"sStick_Item","path":"sprites/sStick_Item/sStick_Item.yy",},},
