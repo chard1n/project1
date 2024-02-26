@@ -20,11 +20,11 @@ x += xspd
 
 // Collision
 // ADD ANY OTHER COLLISION TO THIS ARRAY
-if (place_meeting(x + xspd, y, [oBush])) {
+if (place_meeting(x + xspd, y, [oBush, oSmallTree, oBigTree])) {
 	x -= xspd
 }
 
-if (place_meeting(x, y + yspd, [oBush])) {
+if (place_meeting(x, y + yspd, [oBush, oSmallTree, oBigTree])) {
 	y -= yspd
 }
 
