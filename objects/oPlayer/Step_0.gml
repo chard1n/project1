@@ -1,3 +1,5 @@
+var collision_objects = [oBush, oSmallTree, oBigTree, oPlane];
+
 var _keyInventory = keyboard_check_released(ord("E"));
 var _keyEscape = keyboard_check_released(vk_escape);
 
@@ -20,11 +22,11 @@ x += xspd
 
 // Collision
 // ADD ANY OTHER COLLISION TO THIS ARRAY
-if (place_meeting(x + xspd, y, [oBush, oSmallTree, oBigTree])) {
+if (place_meeting(x + xspd, y, collision_objects)) {
 	x -= xspd
 }
 
-if (place_meeting(x, y + yspd, [oBush, oSmallTree, oBigTree])) {
+if (place_meeting(x, y + yspd, collision_objects)) {
 	y -= yspd
 }
 
