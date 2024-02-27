@@ -3,6 +3,7 @@
   "ResourceOrderSettings": [
     {"name":"oSmallTree","order":4,"path":"objects/oSmallTree/oSmallTree.yy",},
     {"name":"sBush","order":2,"path":"sprites/sBush/sBush.yy",},
+    {"name":"Sprite15","order":5,"path":"sprites/Sprite15/Sprite15.yy",},
     {"name":"merge_number","order":1,"path":"scripts/merge_number/merge_number.yy",},
     {"name":"sBigTree","order":4,"path":"sprites/sBigTree/sBigTree.yy",},
     {"name":"sPlane","order":1,"path":"sprites/sPlane/sPlane.yy",},
@@ -11,5 +12,6 @@
     {"name":"oDayNightCycle","order":2,"path":"objects/oDayNightCycle/oDayNightCycle.yy",},
     {"name":"oPlane","order":1,"path":"objects/oPlane/oPlane.yy",},
     {"name":"oBigTree","order":5,"path":"objects/oBigTree/oBigTree.yy",},
+    {"name":"oCampFire","order":6,"path":"objects/oCampFire/oCampFire.yy",},
   ],
 }
