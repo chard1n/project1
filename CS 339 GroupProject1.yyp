@@ -58,6 +58,7 @@
     {"id":{"name":"sPlane","path":"sprites/sPlane/sPlane.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sRock_Item","path":"sprites/sRock_Item/sRock_Item.yy",},},
+    {"id":{"name":"oHotbar","path":"objects/oHotbar/oHotbar.yy",},},
     {"id":{"name":"sSmallTree","path":"sprites/sSmallTree/sSmallTree.yy",},},
     {"id":{"name":"sBone_Item","path":"sprites/sBone_Item/sBone_Item.yy",},},
     {"id":{"name":"oBush","path":"objects/oBush/oBush.yy",},},

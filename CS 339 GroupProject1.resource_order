@@ -17,6 +17,7 @@
     {"name":"sBone_Club","order":5,"path":"sprites/sBone_Club/sBone_Club.yy",},
     {"name":"sPlane","order":1,"path":"sprites/sPlane/sPlane.yy",},
     {"name":"sRock_Item","order":1,"path":"sprites/sRock_Item/sRock_Item.yy",},
+    {"name":"oHotbar","order":8,"path":"objects/oHotbar/oHotbar.yy",},
     {"name":"sSmallTree","order":2,"path":"sprites/sSmallTree/sSmallTree.yy",},
     {"name":"oBush","order":3,"path":"objects/oBush/oBush.yy",},
     {"name":"oDayNightCycle","order":2,"path":"objects/oDayNightCycle/oDayNightCycle.yy",},
