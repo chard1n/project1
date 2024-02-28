@@ -1,4 +1,4 @@
-var collision_objects = [oBush, oSmallTree, oBigTree, oPlane, oCampFire];
+var collision_objects = [oBush, oSmallTree, oBigTree, oPlane, oCampFire, oBigBoulder];
 
 var _keyInventory = keyboard_check_released(ord("E"));
 var _keyEscape = keyboard_check_released(vk_escape);
