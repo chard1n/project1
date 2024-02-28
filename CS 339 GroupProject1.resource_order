@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings": [
     {"name":"Environment","order":8,"path":"folders/Sprites/Environment.yy",},
-    {"name":"Items","order":9,"path":"folders/Sprites/Items.yy",},
     {"name":"Inventory","order":10,"path":"folders/Sprites/Inventory.yy",},
+    {"name":"Items","order":9,"path":"folders/Sprites/Items.yy",},
     {"name":"Tile Set","order":12,"path":"folders/Sprites/Tile Set.yy",},
   ],
   "ResourceOrderSettings": [
