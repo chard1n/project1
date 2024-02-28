@@ -1,5 +1,5 @@
 if(coll_rect_leaves || coll_rect_trunk) {
-	image_alpha = 0.75;
+	image_alpha = 0.60;
 	oPlayer.image_alpha = 0.50;
 	draw_self();
 } else {

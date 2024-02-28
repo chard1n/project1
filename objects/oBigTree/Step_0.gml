@@ -1,2 +1,2 @@
-coll_rect_leaves = collision_rectangle(x,y + 50,x+sprite_width, y+180, oPlayer, false, true);
-coll_rect_trunk = collision_rectangle(x + 90,y + 175,x + 155, y + sprite_height, oPlayer, false, true);
+coll_rect_leaves = collision_rectangle(x+16, y+48, x+(sprite_width-32), y+240, oPlayer, false, true);
+coll_rect_trunk = collision_rectangle(x+144, y+256, x+208, y+sprite_height, oPlayer, false, true);

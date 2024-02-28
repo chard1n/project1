@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sBigTree",
-  "bbox_bottom": 511,
-  "bbox_left": 92,
-  "bbox_right": 163,
-  "bbox_top": 480,
+  "bbox_bottom": 383,
+  "bbox_left": 113,
+  "bbox_right": 239,
+  "bbox_top": 373,
   "bboxMode": 2,
   "collisionKind": 5,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"15d3a669-d8dd-4dae-8c21-c8a4ea82a0ff",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e8b5692d-f753-4648-b46a-be5d2277fe58",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 512,
+  "height": 384,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"229fc044-1e1d-43bd-affb-36a4fb3d8cd1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7da3d7c9-3b3e-4508-aa33-e51330c086dc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"15d3a669-d8dd-4dae-8c21-c8a4ea82a0ff","path":"sprites/sBigTree/sBigTree.yy",},},},"Disabled":false,"id":"2b49dc80-c332-4185-949c-8d062785a1ed","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e8b5692d-f753-4648-b46a-be5d2277fe58","path":"sprites/sBigTree/sBigTree.yy",},},},"Disabled":false,"id":"3025c8dc-9a34-45c9-980d-f53a0bd1709d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 256,
+  "width": 384,
 }
