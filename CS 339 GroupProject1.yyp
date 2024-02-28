@@ -42,6 +42,8 @@
     {"id":{"name":"fn_Ubuntu","path":"fonts/fn_Ubuntu/fn_Ubuntu.yy",},},
     {"id":{"name":"merge_number","path":"scripts/merge_number/merge_number.yy",},},
     {"id":{"name":"Recipe","path":"scripts/Recipe/Recipe.yy",},},
+    {"id":{"name":"sCannibal","path":"sprites/sCannibal/sCannibal.yy",},},
+    {"id":{"name":"oCannibal","path":"objects/oCannibal/oCannibal.yy",},},
     {"id":{"name":"sBigTree","path":"sprites/sBigTree/sBigTree.yy",},},
     {"id":{"name":"text_align","path":"scripts/text_align/text_align.yy",},},
     {"id":{"name":"draw_reset","path":"scripts/draw_reset/draw_reset.yy",},},

@@ -5,6 +5,8 @@
     {"name":"sBush","order":2,"path":"sprites/sBush/sBush.yy",},
     {"name":"Sprite15","order":5,"path":"sprites/Sprite15/Sprite15.yy",},
     {"name":"merge_number","order":1,"path":"scripts/merge_number/merge_number.yy",},
+    {"name":"sCannibal","order":6,"path":"sprites/sCannibal/sCannibal.yy",},
+    {"name":"oCannibal","order":7,"path":"objects/oCannibal/oCannibal.yy",},
     {"name":"sBigTree","order":4,"path":"sprites/sBigTree/sBigTree.yy",},
     {"name":"sPlane","order":1,"path":"sprites/sPlane/sPlane.yy",},
     {"name":"sSmallTree","order":3,"path":"sprites/sSmallTree/sSmallTree.yy",},
