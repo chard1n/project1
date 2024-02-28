@@ -9,8 +9,10 @@ var horzMove = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 // Inventory
 if(oInventory.opened == false && _keyInventory) {
 	oInventory.opened = true;
+	oHotbar.shown = false;
 } else if(oInventory.opened == true && (_keyEscape || _keyInventory)) {
 	oInventory.opened = false;
+	oHotbar.shown = true;
 }
 // Change 2.0
 
