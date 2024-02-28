@@ -12,6 +12,7 @@ if(oInventory.opened == false && _keyInventory) {
 } else if(oInventory.opened == true && (_keyEscape || _keyInventory)) {
 	oInventory.opened = false;
 }
+// Change 2.0
 
 // Movement
 yspd = vertMove * spd
