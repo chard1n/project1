@@ -16,16 +16,9 @@
     {"name":"inst_7DCC590E","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_77D3DB6E","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6C508498","path":"rooms/Room1/Room1.yy",},
-<<<<<<< HEAD
     {"name":"inst_553E6158","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_73814976","path":"rooms/Room1/Room1.yy",},
-=======
     {"name":"inst_1ABD5FCF","path":"rooms/Room1/Room1.yy",},
-<<<<<<< HEAD
-    {"name":"inst_51531149","path":"rooms/Room1/Room1.yy",},
-=======
->>>>>>> ab0922ff867aaaa0004369b55a1900e63121b55b
->>>>>>> 7319877d448a97914e973c9bbefea5576def5a92
   ],
   "isDnd": false,
   "layers": [
