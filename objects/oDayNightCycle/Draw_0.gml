@@ -1,7 +1,7 @@
 if(draw_daylight){
 	var c = light_colour;
 	draw_set_alpha(darkness);
-	draw_rectangle_color(0,0, guiWidth, guiHeight, c,c,c,c, false);
+	draw_rectangle_color(0, 0, room_width, room_height, c,c,c,c, false);
 	draw_set_alpha(1);
 }
 
