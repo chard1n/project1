@@ -44,6 +44,7 @@
     {"id":{"name":"sSkull_Item","path":"sprites/sSkull_Item/sSkull_Item.yy",},},
     {"id":{"name":"oSmallTree","path":"objects/oSmallTree/oSmallTree.yy",},},
     {"id":{"name":"sBush","path":"sprites/sBush/sBush.yy",},},
+    {"id":{"name":"oBigBush","path":"objects/oBigBush/oBigBush.yy",},},
     {"id":{"name":"keytostring","path":"scripts/keytostring/keytostring.yy",},},
     {"id":{"name":"sCampFireLit","path":"sprites/sCampFireLit/sCampFireLit.yy",},},
     {"id":{"name":"sBigTree2","path":"sprites/sBigTree2/sBigTree2.yy",},},
@@ -70,6 +71,11 @@
     {"id":{"name":"is_between","path":"scripts/is_between/is_between.yy",},},
     {"id":{"name":"oDayNightCycle","path":"objects/oDayNightCycle/oDayNightCycle.yy",},},
     {"id":{"name":"sStick_Item","path":"sprites/sStick_Item/sStick_Item.yy",},},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"sBigBush","path":"sprites/sBigBush/sBigBush.yy",},},
+>>>>>>> e257d938e154b06b893fdc074f54c84b2e84d42d
     {"id":{"name":"oPlane","path":"objects/oPlane/oPlane.yy",},},
     {"id":{"name":"oBigTree1","path":"objects/oBigTree1/oBigTree1.yy",},},
     {"id":{"name":"sWood_Item","path":"sprites/sWood_Item/sWood_Item.yy",},},
