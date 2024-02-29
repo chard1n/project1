@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sCampfire",
-    "path": "sprites/sCampfire/sCampfire.yy",
+    "name": "sCampFireLit",
+    "path": "sprites/sCampFireLit/sCampFireLit.yy",
   },
   "spriteMaskId": null,
   "visible": true,
