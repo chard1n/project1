@@ -71,11 +71,8 @@
     {"id":{"name":"is_between","path":"scripts/is_between/is_between.yy",},},
     {"id":{"name":"oDayNightCycle","path":"objects/oDayNightCycle/oDayNightCycle.yy",},},
     {"id":{"name":"sStick_Item","path":"sprites/sStick_Item/sStick_Item.yy",},},
-<<<<<<< HEAD
-=======
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sBigBush","path":"sprites/sBigBush/sBigBush.yy",},},
->>>>>>> e257d938e154b06b893fdc074f54c84b2e84d42d
     {"id":{"name":"oPlane","path":"objects/oPlane/oPlane.yy",},},
     {"id":{"name":"oBigTree1","path":"objects/oBigTree1/oBigTree1.yy",},},
     {"id":{"name":"sWood_Item","path":"sprites/sWood_Item/sWood_Item.yy",},},
@@ -88,7 +85,9 @@
     {"id":{"name":"sBigBoulder","path":"sprites/sBigBoulder/sBigBoulder.yy",},},
     {"id":{"name":"sInventory_Recipe_Box","path":"sprites/sInventory_Recipe_Box/sInventory_Recipe_Box.yy",},},
   ],
-  "RoomOrderNodes": [],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
   "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
