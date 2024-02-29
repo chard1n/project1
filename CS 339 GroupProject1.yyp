@@ -43,6 +43,7 @@
     {"id":{"name":"sSkull_Item","path":"sprites/sSkull_Item/sSkull_Item.yy",},},
     {"id":{"name":"oSmallTree","path":"objects/oSmallTree/oSmallTree.yy",},},
     {"id":{"name":"sBush","path":"sprites/sBush/sBush.yy",},},
+    {"id":{"name":"keytostring","path":"scripts/keytostring/keytostring.yy",},},
     {"id":{"name":"sCampfire","path":"sprites/sCampfire/sCampfire.yy",},},
     {"id":{"name":"sBigTree2","path":"sprites/sBigTree2/sBigTree2.yy",},},
     {"id":{"name":"fn_Ubuntu","path":"fonts/fn_Ubuntu/fn_Ubuntu.yy",},},
