@@ -1,5 +1,5 @@
 // Draw light after the day/night draw so lighting is not changed
-if(strength > 0) {
+if(strength > min_strength) {
 	flicker = random_range(0,2);
 	draw_set_alpha(0.2);
 	c = make_color_rgb(255,255,150);
