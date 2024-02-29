@@ -48,8 +48,8 @@ ui_inventory_box = 64;
 ui_inventory_margin = 16;
 ui_recipy_max = 6;
 
-color_background = #55507a;
-color_border = #36234a;
+color_background = #A3620A;
+color_border = #331E02;
 color_inventory_text = c_white;
 color_inventory_highlight = c_white;
 color_inventory_disabled = c_black;
