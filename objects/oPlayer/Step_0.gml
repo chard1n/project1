@@ -33,6 +33,11 @@ if (place_meeting(x, y + yspd, collision_objects)) {
 	y -= yspd
 }
 
+// If player is inside a collision mask (Sometimes can happen when sprite changes)
+// Move them up slowly until they are not longer inside collision mask
+if(place_meeting(x, y, collision_objects)) {
+	y -= 1;	
+}
 
 
 
