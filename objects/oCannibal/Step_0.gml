@@ -28,4 +28,6 @@ if(path != pointer_null) {
 	}
 	
 	mp_linear_step(x_goto, y_goto, 1, false);
+	
+	path_delete(path);
 }
