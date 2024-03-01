@@ -47,6 +47,7 @@
     {"id":{"name":"sCampFireLit","path":"sprites/sCampFireLit/sCampFireLit.yy",},},
     {"id":{"name":"sBigTree2","path":"sprites/sBigTree2/sBigTree2.yy",},},
     {"id":{"name":"fn_Ubuntu","path":"fonts/fn_Ubuntu/fn_Ubuntu.yy",},},
+    {"id":{"name":"oObserver","path":"objects/oObserver/oObserver.yy",},},
     {"id":{"name":"merge_number","path":"scripts/merge_number/merge_number.yy",},},
     {"id":{"name":"Recipe","path":"scripts/Recipe/Recipe.yy",},},
     {"id":{"name":"sCannibal","path":"sprites/sCannibal/sCannibal.yy",},},

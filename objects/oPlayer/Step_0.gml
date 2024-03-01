@@ -1,4 +1,3 @@
-var collision_objects = [oBush, oSmallTree, oBigTree1, oBigTree2, oPlane, oCampFire, oBigBoulder];
 
 var _keyInventory = keyboard_check_released(ord("E"));
 var _keyEscape = keyboard_check_released(vk_escape);
@@ -25,20 +24,16 @@ x += xspd
 
 // Collision
 // ADD ANY OTHER COLLISION TO THIS ARRAY
-if (place_meeting(x + xspd, y, collision_objects)) {
+if (place_meeting(x + xspd, y, global.collision_objects)) {
 	x -= xspd
 }
 
-if (place_meeting(x, y + yspd, collision_objects)) {
+if (place_meeting(x, y + yspd, global.collision_objects)) {
 	y -= yspd
 }
 
 // If player is inside a collision mask (Sometimes can happen when sprite changes)
 // Move them up slowly until they are not longer inside collision mask
-if(place_meeting(x, y, collision_objects)) {
+if(place_meeting(x, y, global.collision_objects)) {
 	y -= 1;	
 }
-
-
-
-

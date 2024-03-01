@@ -13,6 +13,7 @@
     {"name":"keytostring","order":2,"path":"scripts/keytostring/keytostring.yy",},
     {"name":"sCampFireLit","order":5,"path":"sprites/sCampFireLit/sCampFireLit.yy",},
     {"name":"sBigTree2","order":4,"path":"sprites/sBigTree2/sBigTree2.yy",},
+    {"name":"oObserver","order":11,"path":"objects/oObserver/oObserver.yy",},
     {"name":"merge_number","order":1,"path":"scripts/merge_number/merge_number.yy",},
     {"name":"sCannibal","order":6,"path":"sprites/sCannibal/sCannibal.yy",},
     {"name":"oBigTree2","order":9,"path":"objects/oBigTree2/oBigTree2.yy",},

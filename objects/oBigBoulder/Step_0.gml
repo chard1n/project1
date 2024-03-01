@@ -1,6 +1,1 @@
-coll_rect_bigBoulder = collision_rectangle(x, y, x+sprite_width, y+sprite_height, oPlayer, false, true);
-
-
-
-
-
+coll_rect_bigBoulder = collision_rectangle(x, y, x+sprite_width, y+sprite_height, global.environment_interactable_objects, false, true);
