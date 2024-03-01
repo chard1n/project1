@@ -8,8 +8,19 @@ inventory.item_add("Rock", 3, sRock_Item);
 inventory.item_add("Stick", 2, sStick_Item);
 inventory.item_add("Bone", 1, sBone_Item);
 inventory.item_add("Skull", 1, sSkull_Item);
+inventory.item_add("Cell Phone", 1, sPhone_Item);
 
-// recipies
+// recipes
+inventory.recipe_add("Electronic Parts", [
+	{
+		name: "Cell Phone",
+		quantity: 1
+	}], [{
+		name: "Electronic Parts",
+		quantity: 1,
+		sprite: sElectronic_Parts_item
+	}], sElectronic_Parts_item);
+	
 inventory.recipe_add("Bone_Club", [
 	{
 		name: "Stick",
