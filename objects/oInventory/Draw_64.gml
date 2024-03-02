@@ -109,7 +109,7 @@ for (var row = 0; row < inventory.get_height(); row++) {
 			}
 			
 			// draw inventory sprite
-			draw_sprite(inventory_items[inventory_index].sprite, 0, pos_x, pos_y);
+			draw_sprite(inventory_items[inventory_index].sprite, 0, pos_x + sprite_get_width(inventory_items[inventory_index].sprite) / 2, pos_y + sprite_get_height(inventory_items[inventory_index].sprite) / 2);
 		}
 		
 		//// if our mouse is between one of the columns let's highlight it
@@ -153,7 +153,7 @@ for(var itemIdx = 0; itemIdx < array_length(inventory_items); itemIdx++) {
 		if(inventory_items[itemIdx] == noone || selected_index != itemIdx) continue;
 	
 		// Draw selected sprite on mouse
-		draw_sprite_ext(inventory_items[itemIdx].sprite, 0, mx - 32, my - 32,1,1,0,c_white,0.5);
+		draw_sprite_ext(inventory_items[itemIdx].sprite, 0, mx, my,1,1,0,c_white,0.5);
 		
 		draw_set(#232323, 1);
 		draw_circle(

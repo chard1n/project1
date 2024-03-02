@@ -22,11 +22,9 @@ for(i = 45; i < array_length(inventory_items); i++) {
 	// If not, set players holding_name and holding_sprite to noone
 	if(i%45 == selected_slot) {
 		if(inventory_items[i] != noone) { // Has item
-			oPlayer.holding_name = inventory_items[i].name;
-			oPlayer.holding_sprite = inventory_items[i].sprite;
+			oPlayer.holding = inventory_items[i]
 		} else { // Doesn't have item
-			oPlayer.holding_name = noone;
-			oPlayer.holding_sprite = noone;
+			oPlayer.holding = undefined;
 		}
 	}
 	
@@ -49,7 +47,7 @@ for(i = 45; i < array_length(inventory_items); i++) {
 		inventory_items[i].quantity
 	);
 
-	draw_sprite(inventory_items[i].sprite, 0, box_x, box_y);
+	draw_sprite(inventory_items[i].sprite, 0, box_x + sprite_get_width(inventory_items[i].sprite) / 2, box_y + sprite_get_height(inventory_items[i].sprite) / 2);
 
 }
 

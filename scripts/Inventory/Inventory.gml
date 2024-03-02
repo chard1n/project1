@@ -13,11 +13,12 @@ function Inventory() constructor {
 		return inventory_rows;
 	}
 	
-	item_set = function(_name, _quantity, _sprite) {
+	item_set = function(_name, _quantity, _sprite, _held) {
 		_inventory_items[find_open_index()] = {
 			name: _name,
 			quantity: _quantity,
 			sprite: _sprite,
+			options: _held,
 		};
 	}
 	
@@ -51,13 +52,15 @@ function Inventory() constructor {
 		_inventory_items[original_idx] = noone;
 	}
 	
-	item_add = function(_name, _quantity, _sprite) {
+	item_add = function(_name, _quantity, _sprite, _held = {}) {
 		var index = item_find(_name);
 		
 		if(index >= 0) {
 			_inventory_items[index].quantity += _quantity;
 		} else {
-			item_set(_name, _quantity, _sprite);
+			_held = validateHeldJson(_held);
+			
+			item_set(_name, _quantity, _sprite, _held);
 		}
 	}
 	
@@ -95,6 +98,21 @@ function Inventory() constructor {
 	
 	toString = function() {
 		return json_stringify(_inventory_items);
+	}
+	
+	validateHeldJson = function(_json) {
+		requiredJson = { object: noone, isPlaceable: false, x_scale: 1, y_scale: 1, x_offset: 0, y_offset: 0, rotation: 0 };
+		requiredKeys = variable_struct_get_names(requiredJson);
+		keys = variable_struct_get_names(_json);
+
+		for(i = 0; i < array_length(requiredKeys); i++) {
+			if(!array_contains(keys,requiredKeys[i])) { // Json doesn't have a required key! :(
+				struct_set(_json, requiredKeys[i], variable_struct_get(requiredJson, requiredKeys[i]));
+			}
+		}
+		show_debug_message(_json);
+		
+		return _json;
 	}
 
 }

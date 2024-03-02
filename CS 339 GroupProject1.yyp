@@ -81,6 +81,7 @@
     {"id":{"name":"sWood_Item","path":"sprites/sWood_Item/sWood_Item.yy",},},
     {"id":{"name":"sTileMap","path":"sprites/sTileMap/sTileMap.yy",},},
     {"id":{"name":"Inventory","path":"scripts/Inventory/Inventory.yy",},},
+    {"id":{"name":"sCampFire","path":"sprites/sCampFire/sCampFire.yy",},},
     {"id":{"name":"draw_set","path":"scripts/draw_set/draw_set.yy",},},
     {"id":{"name":"oButtonPlay","path":"objects/oButtonPlay/oButtonPlay.yy",},},
     {"id":{"name":"oCampFire","path":"objects/oCampFire/oCampFire.yy",},},

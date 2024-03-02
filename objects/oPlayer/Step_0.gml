@@ -1,6 +1,7 @@
 
 var _keyInventory = keyboard_check_released(ord("E"));
 var _keyEscape = keyboard_check_released(vk_escape);
+var _keyPlace = keyboard_check_released(global.place_key);
 
 var vertMove = keyboard_check(ord("S")) - keyboard_check(ord("W"))
 var horzMove = keyboard_check(ord("D")) - keyboard_check(ord("A"))
@@ -50,5 +51,16 @@ isInsideLight = false;
 with(oCampFire) {
 	if(point_distance(x,y,oPlayer.x,oPlayer.y) < strength) {
 		other.isInsideLight = true;	
+	}
+}
+
+if(_keyPlace) {
+	if(!place_meeting(x,y,global.collision_objects)) {
+		if(holding != undefined) {
+			if(holding.options.isPlaceable) {
+				instance_create_layer(x,y, "Instances",  holding.options.object);
+				oInventory.inventory.item_subtract(holding.name, 1);
+			}
+		}
 	}
 }

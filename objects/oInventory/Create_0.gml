@@ -8,7 +8,9 @@ inventory.item_add("Rock", 3, sRock_Item);
 inventory.item_add("Stick", 2, sStick_Item);
 inventory.item_add("Bone", 1, sBone_Item);
 inventory.item_add("Skull", 1, sSkull_Item);
-inventory.item_add("Cell Phone", 1, sPhone_Item);
+inventory.item_add("CellPhone", 1, sPhone_Item);
+inventory.item_add("CampFire", 1, sCampFire, { object: oCampFire, isPlaceable: true, x_scale: 0.4, y_scale: 0.4, x_offset: 50, y_offset: 0, rotation: 0 })
+
 
 // recipes
 inventory.recipe_add("Electronic Parts", [

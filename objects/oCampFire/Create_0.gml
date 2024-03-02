@@ -1,8 +1,12 @@
+image_xscale = 2;
+image_yscale = 2;
+
 min_strength = 15;
 max_strength = 200;
 strength = max_strength;
 stoke_amount = 50;
 
+interact_message = "";
 x_center = x;
 y_center = y;
 y_message_offset = -35;
