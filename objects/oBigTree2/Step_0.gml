@@ -14,13 +14,16 @@ if(!has_been_interacted && keyboard_check_pressed(global.interact_key)) {
 		// What to do if interacted with
 		// TODO: Check if player is holding axe?
 		if(/*oPlayer.holding != undefined && oPlayer.holding.name == "axe"*/ true) {
-			
-			oInventory.inventory.item_add("wood", irandom_range(1,2), sWood);
+			amount = irandom_range(1,2);
+			oInventory.inventory.item_add("wood", amount, sWood);
 			doCollisionAlphaCheck = false;
 			has_been_interacted = true;
 			sprite_index = sBigTree2Stump;
+			
+			showMessage($"You got a piece of wood! {amount}x");
 			
 			
 		} 
 	}
 }
+
