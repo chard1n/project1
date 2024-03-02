@@ -9,7 +9,7 @@ if (keyboard_check(vk_f1)) {
 		draw_line_width(0, j, room_width, j, 3);
 	}
 	draw_set_alpha(1);
-	if (path != pointer_null) draw_path(path, x, y, true);
+	if (path_exists(path)) draw_path(path, x, y, true);
 }
 
 draw_self();
