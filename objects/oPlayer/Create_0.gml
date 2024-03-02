@@ -4,3 +4,5 @@ yspd = 0
 
 holding_name = noone;
 holding_sprite = noone;
+
+isInsideLight = false;

@@ -13,3 +13,4 @@ if (keyboard_check(vk_f1)) {
 }
 
 draw_self();
+draw_text(x,y - 100, state);

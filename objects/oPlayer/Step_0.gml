@@ -19,6 +19,13 @@ if(oInventory.opened == false && _keyInventory) {
 yspd = vertMove * spd
 xspd = horzMove * spd
 
+// Normalize the diagonal movement
+if (xspd != 0 && yspd != 0) {
+    magnitude = sqrt(xspd * xspd + yspd * yspd);
+    xspd = (xspd / magnitude) * spd;
+    yspd = (yspd / magnitude) * spd;
+}
+
 y += yspd
 x += xspd
 
@@ -36,4 +43,12 @@ if (place_meeting(x, y + yspd, global.collision_objects)) {
 // Move them up slowly until they are not longer inside collision mask
 if(place_meeting(x, y, global.collision_objects)) {
 	y -= 1;	
+}
+
+// Check if player is inside lighting
+isInsideLight = false;	
+with(oCampFire) {
+	if(point_distance(x,y,oPlayer.x,oPlayer.y) < strength) {
+		other.isInsideLight = true;	
+	}
 }

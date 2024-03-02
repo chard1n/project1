@@ -1,12 +1,5 @@
-eWanderingSpeed = 0.5;
-eHuntingSpeed = 1.0;
 
-path = noone;
-
-state = eState.arrived;
-pos = 1;
-
-grid_id = mp_grid_create(0, 0, ceil(room_width/5), ceil(room_height/5), 5, 5);
+	grid_id = mp_grid_create(0, 0, ceil(room_width/5), ceil(room_height/5), 5, 5);
 	for(i = 0; i < array_length(global.collision_objects); i++) {
 		mp_grid_add_instances(grid_id, global.collision_objects[i], true);
 	}
@@ -23,12 +16,3 @@ grid_id = mp_grid_create(0, 0, ceil(room_width/5), ceil(room_height/5), 5, 5);
 			}
 		}
 	}
-	
-updateGridSteps = 20;
-updateGridCurrentStep = 0;
-
-enum eState {
-	wandering,
-	arrived,
-	hunting
-}
