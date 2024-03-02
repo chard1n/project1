@@ -9,7 +9,7 @@ inventory.item_add("Stick", 2, sStick_Item);
 inventory.item_add("Bone", 1, sBone_Item);
 inventory.item_add("Skull", 1, sSkull_Item);
 inventory.item_add("CellPhone", 1, sPhone_Item);
-inventory.item_add("CampFire", 1, sCampFire, { object: oCampFire, isPlaceable: true, x_scale: 0.4, y_scale: 0.4, x_offset: 50, y_offset: 0, rotation: 0 })
+inventory.item_add("CampFire", 1, sCampFire, { object: oCampFire, isPlaceable: true, x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15, rotation: 0 })
 
 
 // recipes
