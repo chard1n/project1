@@ -259,7 +259,7 @@ surface_reset_target();
 
 draw_surface(surf, ui_padding_x + ui_border_size, ui_padding_y + ui_border_size + (ui_border_size * 8));
 
-surface_free(surf);
+surface_free(surf); // Fixes memory leak!
 
 draw_set(c_black, 0.2);
 
