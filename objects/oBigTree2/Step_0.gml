@@ -17,7 +17,7 @@ if(!has_been_interacted && keyboard_check_pressed(global.interact_key)) {
 			amount = irandom_range(1,2);
 			oInventory.inventory.item_add("wood", amount, sWood);
 			doCollisionAlphaCheck = false;
-			//has_been_interacted = true;
+			has_been_interacted = true;
 			sprite_index = sBigTree2Stump;
 			
 			showMessage($"You got a piece of wood! {amount}x");
