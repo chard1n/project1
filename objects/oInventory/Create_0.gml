@@ -15,34 +15,34 @@ inventory.item_add("campFire", 1, sCampFire)
 // recipes
 inventory.recipe_add("Electronic Parts", [
 	{
-		name: "Cell Phone",
+		name: "phone",
 		quantity: 1
 	}], [{
-		name: "Electronic Parts",
+		name: "electronicParts",
 		quantity: 1,
 		sprite: sElectronicParts
 	}], sElectronicParts);
 	
-inventory.recipe_add("Bone_Club", [
+inventory.recipe_add("boneClub", [
 	{
-		name: "Stick",
+		name: "stick",
 		quantity: 1
 	},
 	{
-		name: "Skull",
+		name: "skull",
 		quantity: 1
 	}], [{
-		name: "Bone_club",
+		name: "boneClub",
 		quantity: 1,
 		sprite: sBoneClub
 	}], sBoneClub);
 	
-inventory.recipe_add("Rock", [
+inventory.recipe_add("rock", [
 	{
-		name: "Rock",
+		name: "rock",
 		quantity: 3
 	},], [{
-		name: "Rock",
+		name: "rock",
 		quantity: 2,
 		sprite: sRock
 	}], sRock);

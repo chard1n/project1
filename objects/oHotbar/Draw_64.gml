@@ -21,10 +21,20 @@ for(i = 45; i < array_length(inventory_items); i++) {
 	// Check if selected slot has an item, if so, make the player hold it
 	// If not, set players holding_name and holding_sprite to noone
 	if(i%45 == selected_slot) {
-		if(inventory_items[i] != noone) { // Has item
-			oPlayer.holding = inventory_items[i]
-		} else { // Doesn't have item
-			oPlayer.holding = undefined;
+		// Dont change oPlayer.holding if it is currently the same
+		if(!((inventory_items[i] == noone && oPlayer.holding == undefined) || (inventory_items[i] == oPlayer.holding))) {
+		
+			oPlayer.sprite_playing_animation = false;
+			oPlayer.animation_step_delay = 0;
+			oPlayer.sprite_frame = 0;
+			
+			if(inventory_items[i] != noone) { // Has item
+				oPlayer.sprite_playing_animation = inventory_items[i].options.playAnimationByDefault;
+				oPlayer.holding = inventory_items[i]
+			} else { // Doesn't have item
+				oPlayer.holding = undefined;
+			}
+			
 		}
 	}
 	

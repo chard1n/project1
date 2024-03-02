@@ -77,6 +77,7 @@ with(oCampFire) {
 	}
 }
 
+// Place held item
 if(_keyPlace) {
 	if(!place_meeting(x,y,global.collision_objects)) {
 		if(holding != undefined) {
@@ -85,5 +86,18 @@ if(_keyPlace) {
 				oInventory.inventory.item_subtract(holding.name, 1);
 			}
 		}
+	}
+}
+
+// End held item animation if at end animation
+if (holding != undefined && sprite_frame >= sprite_get_number(holding.sprite) - 1) {
+    sprite_frame = 0;
+	if(!holding.options.loopAnimation) sprite_playing_animation = false;
+} else if(holding != undefined && sprite_playing_animation) {
+	if(animation_step_delay >= sprite_get_speed(holding.sprite)) {
+		sprite_frame++;
+		animation_step_delay = 0;
+	} else {
+		animation_step_delay++;	
 	}
 }
