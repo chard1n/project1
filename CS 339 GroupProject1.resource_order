@@ -35,6 +35,7 @@
     {"name":"sStick","order":3,"path":"sprites/sStick/sStick.yy",},
     {"name":"get_item_options","order":3,"path":"scripts/get_item_options/get_item_options.yy",},
     {"name":"sBigBush","order":5,"path":"sprites/sBigBush/sBigBush.yy",},
+    {"name":"sBigTree1Stump","order":7,"path":"sprites/sBigTree1Stump/sBigTree1Stump.yy",},
     {"name":"sPhone","order":7,"path":"sprites/sPhone/sPhone.yy",},
     {"name":"fn_menu","order":1,"path":"fonts/fn_menu/fn_menu.yy",},
     {"name":"sCampFire","order":10,"path":"sprites/sCampFire/sCampFire.yy",},

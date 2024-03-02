@@ -80,6 +80,7 @@
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"get_item_options","path":"scripts/get_item_options/get_item_options.yy",},},
     {"id":{"name":"sBigBush","path":"sprites/sBigBush/sBigBush.yy",},},
+    {"id":{"name":"sBigTree1Stump","path":"sprites/sBigTree1Stump/sBigTree1Stump.yy",},},
     {"id":{"name":"sPhone","path":"sprites/sPhone/sPhone.yy",},},
     {"id":{"name":"fn_menu","path":"fonts/fn_menu/fn_menu.yy",},},
     {"id":{"name":"sCampFire","path":"sprites/sCampFire/sCampFire.yy",},},
