@@ -14,7 +14,12 @@ if(oInventory.opened == false && _keyInventory) {
 	oInventory.opened = false;
 	oHotbar.shown = true;
 }
-// Change 2.0
+
+if(horzMove > 0) {
+	image_xscale = 3;
+} else if(horzMove < 0) {
+	image_xscale = -3;
+}
 
 // Movement
 yspd = vertMove * spd
