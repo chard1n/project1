@@ -5,6 +5,7 @@
     {"name":"Items","order":9,"path":"folders/Sprites/Items.yy",},
     {"name":"Menu","order":14,"path":"folders/Sprites/Menu.yy",},
     {"name":"Tile Set","order":12,"path":"folders/Sprites/Tile Set.yy",},
+    {"name":"Player","order":16,"path":"folders/Sprites/Player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sCampFireOut","order":13,"path":"sprites/sCampFireOut/sCampFireOut.yy",},
@@ -27,6 +28,7 @@
     {"name":"sRock","order":1,"path":"sprites/sRock/sRock.yy",},
     {"name":"oHotbar","order":8,"path":"objects/oHotbar/oHotbar.yy",},
     {"name":"oDayNightCycle","order":2,"path":"objects/oDayNightCycle/oDayNightCycle.yy",},
+    {"name":"sPlayerWalking","order":1,"path":"sprites/sPlayerWalking/sPlayerWalking.yy",},
     {"name":"sStick","order":3,"path":"sprites/sStick/sStick.yy",},
     {"name":"get_item_options","order":3,"path":"scripts/get_item_options/get_item_options.yy",},
     {"name":"sBigBush","order":5,"path":"sprites/sBigBush/sBigBush.yy",},

@@ -5,3 +5,5 @@ yspd = 0
 holding = undefined;
 
 isInsideLight = false;
+
+animationState = "idle";

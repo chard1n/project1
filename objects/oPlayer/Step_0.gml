@@ -15,6 +15,23 @@ if(oInventory.opened == false && _keyInventory) {
 	oHotbar.shown = true;
 }
 
+//check for movement
+if keyboard_check(ord("D")) || keyboard_check(ord("A")) || keyboard_check(ord("S")) || keyboard_check(ord("W")) {
+    animationState = "walk";
+} else {
+    animationState = "idle";
+}
+
+// Play the correct animation
+switch (animationState) {
+    case "idle":
+        sprite_index = sPlayerIdle;
+        break;
+    case "walk":
+        sprite_index = sPlayerWalking;
+        break;
+}
+
 if(horzMove > 0) {
 	image_xscale = 3;
 } else if(horzMove < 0) {
