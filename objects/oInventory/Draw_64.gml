@@ -5,6 +5,13 @@ if(!opened) {
 var g_width = display_get_gui_width();
 var g_height = display_get_gui_height();
 
+
+draw_set(c_black, 0.3);
+
+draw_rectangle(0, 0, g_width, g_height, false);
+
+draw_reset();
+
 // draw outside rectangle
 draw_set(color_border, 1);
 draw_rectangle(
@@ -174,10 +181,6 @@ for(var itemIdx = 0; itemIdx < array_length(inventory_items); itemIdx++) {
 				
 }
 		
-
-//draw_set(c_red, 1);
-//draw_rectangle(ui_padding_x + ui_border_size, ui_padding_y + ui_border_size, ui_panel_left + ui_padding_x, g_height - ui_padding_y - ui_border_size, false)
-
 _x =  ( ui_panel_left + ui_padding_x ) - ( ui_padding_x + ui_border_size );
 _y =  ( g_height - ui_padding_y - ui_border_size - (ui_border_size * 8) ) - ( ui_padding_y + ui_border_size );
 
@@ -193,7 +196,7 @@ for(var recipe_index = 0; recipe_index < array_length(_recipies); recipe_index++
 	
 		
 		draw_sprite(sInventory_Recipe_Box, 0, pos_x, pos_y);
-		draw_sprite(_recipies[recipe_index].sprite, 0, pos_x, pos_y);
+		draw_sprite(_recipies[recipe_index].sprite, 0, pos_x + sprite_get_width(_recipies[recipe_index].sprite) / 2, pos_y + sprite_get_height(_recipies[recipe_index].sprite) / 2);
 	
 		draw_set_halign(fa_left);
 		draw_text(pos_x + 56, pos_y + 16, string(_recipies[recipe_index].name) + " (" + string(_recipies[recipe_index].products[0].quantity) + ")");
@@ -260,20 +263,5 @@ surface_reset_target();
 draw_surface(surf, ui_padding_x + ui_border_size, ui_padding_y + ui_border_size + (ui_border_size * 8));
 
 surface_free(surf); // Fixes memory leak!
-
-draw_set(c_black, 0.2);
-
-i = 0
-
-do
-{
-
-    draw_rectangle(ui_padding_x + ui_border_size-i,ui_padding_y + ui_border_size-i,g_width - ui_padding_x+i,g_height - ui_padding_y+i,true)
-
-
-    i += 1
-
-}
-until(i = 75)
 
 draw_reset();
