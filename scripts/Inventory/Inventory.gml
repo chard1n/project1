@@ -52,15 +52,14 @@ function Inventory() constructor {
 		_inventory_items[original_idx] = noone;
 	}
 	
-	item_add = function(_name, _quantity, _sprite, _held = {}) {
+	item_add = function(_name, _quantity, _sprite) {
 		var index = item_find(_name);
 		
 		if(index >= 0) {
 			_inventory_items[index].quantity += _quantity;
 		} else {
-			_held = validateHeldJson(_held);
 			
-			item_set(_name, _quantity, _sprite, _held);
+			item_set(_name, _quantity, _sprite, get_item_options(_name));
 		}
 	}
 	
@@ -100,6 +99,7 @@ function Inventory() constructor {
 		return json_stringify(_inventory_items);
 	}
 	
+	/*
 	validateHeldJson = function(_json) {
 		requiredJson = { object: noone, isPlaceable: false, x_scale: 1, y_scale: 1, x_offset: 0, y_offset: 0, rotation: 0 };
 		requiredKeys = variable_struct_get_names(requiredJson);
@@ -114,5 +114,6 @@ function Inventory() constructor {
 		
 		return _json;
 	}
+	*/
 
 }

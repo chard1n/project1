@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sPhone_Item",
-  "bbox_bottom": 45,
-  "bbox_left": 14,
+  "name": "sBoneClub",
+  "bbox_bottom": 51,
+  "bbox_left": 8,
   "bbox_right": 45,
-  "bbox_top": 14,
+  "bbox_top": 10,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"93e72d99-112a-41ab-bbbd-5b4b2599381f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8766997d-9d6b-4ef3-b3b2-1a8c16a068a6",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"aa727728-48fa-4eaa-a0ff-964d99417dfc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ad6941ba-c709-4cdc-a1c4-a0993866fc12","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sPhone_Item",
+    "name": "sBoneClub",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"93e72d99-112a-41ab-bbbd-5b4b2599381f","path":"sprites/sPhone_Item/sPhone_Item.yy",},},},"Disabled":false,"id":"86a90e57-c731-4452-9a17-deffa4ed5fb3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8766997d-9d6b-4ef3-b3b2-1a8c16a068a6","path":"sprites/sBoneClub/sBoneClub.yy",},},},"Disabled":false,"id":"3c9bebea-e274-48e5-86fd-6438ddd0fc6d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

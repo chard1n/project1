@@ -4,12 +4,12 @@ randomize();
 
 inventory = new Recipe();
 
-inventory.item_add("Rock", 3, sRock_Item);
-inventory.item_add("Stick", 2, sStick_Item);
-inventory.item_add("Bone", 1, sBone_Item);
-inventory.item_add("Skull", 1, sSkull_Item);
-inventory.item_add("CellPhone", 1, sPhone_Item);
-inventory.item_add("CampFire", 1, sCampFire, { object: oCampFire, isPlaceable: true, x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15, rotation: 0 })
+inventory.item_add("rock", 3, sRock);
+inventory.item_add("stick", 2, sStick);
+inventory.item_add("bone", 1, sBone);
+inventory.item_add("skull", 1, sSkull);
+inventory.item_add("phone", 1, sPhone);
+inventory.item_add("campFire", 1, sCampFire)
 
 
 // recipes
@@ -20,8 +20,8 @@ inventory.recipe_add("Electronic Parts", [
 	}], [{
 		name: "Electronic Parts",
 		quantity: 1,
-		sprite: sElectronic_Parts_item
-	}], sElectronic_Parts_item);
+		sprite: sElectronicParts
+	}], sElectronicParts);
 	
 inventory.recipe_add("Bone_Club", [
 	{
@@ -34,8 +34,8 @@ inventory.recipe_add("Bone_Club", [
 	}], [{
 		name: "Bone_club",
 		quantity: 1,
-		sprite: sBone_Club
-	}], sBone_Club);
+		sprite: sBoneClub
+	}], sBoneClub);
 	
 inventory.recipe_add("Rock", [
 	{
@@ -44,8 +44,8 @@ inventory.recipe_add("Rock", [
 	},], [{
 		name: "Rock",
 		quantity: 2,
-		sprite: sRock_Item
-	}], sRock_Item);
+		sprite: sRock
+	}], sRock);
 	
 	
 // UI INFORMATION //
