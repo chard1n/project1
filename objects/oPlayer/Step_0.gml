@@ -16,7 +16,7 @@ if(oInventory.opened == false && _keyInventory) {
 }
 
 //check for movement
-if keyboard_check(ord("D")) || keyboard_check(ord("A")) || keyboard_check(ord("S")) || keyboard_check(ord("W")) {
+if (vertMove != 0 || horzMove != 0) {
     animationState = "walk";
 } else {
     animationState = "idle";
@@ -32,6 +32,7 @@ switch (animationState) {
         break;
 }
 
+// Flip player sprite direction
 if(horzMove > 0) {
 	image_xscale = 3;
 } else if(horzMove < 0) {
