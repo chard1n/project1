@@ -5,8 +5,8 @@ if(!opened) {
 if(surface_exists(surf)) {
 	
 	// Why does this need to be done?
-	// Only GameMaker and God know because I am FREEING
-	// The surface from memory BUT GameMaker just decides
+	// Only GameMaker and God know because I am FREE-ING the
+	// surface from memory BUT GameMaker just decides
 	// that it wants to NOT free the surface and keep using
 	// it to draw on. BUT if I don't free it from memory...
 	// MEMORY LEAK!!!
