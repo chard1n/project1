@@ -72,7 +72,7 @@ if(place_meeting(x, y, global.collision_objects)) {
 // Check if player is inside lighting
 isInsideLight = false;	
 with(oCampFire) {
-	if(point_distance(x,y,oPlayer.x,oPlayer.y) < strength) {
+	if(point_distance(x,y,oPlayer.x,oPlayer.y + oPlayer.sprite_height / 2) < strength) {
 		other.isInsideLight = true;	
 	}
 }

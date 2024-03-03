@@ -16,15 +16,12 @@ for(i = 0; i < array_length(global.collision_objects); i++) {
 }
 
 with(oCampFire) {
-	_x = x - strength;
-	_y = y - strength;
+	radius = strength - 5; // Account for cell size
+	for (var _angle = 0; _angle < 360; _angle += 1) {
+        _x_on_circle = x + lengthdir_x(radius, _angle);
+        _y_on_circle = y + lengthdir_y(radius, _angle);
 
-	for(_w = 0; _w < strength * 2; _w++) {
-		for(_h = 0; _h < strength * 2; _h++) {
-			if(point_distance(_x + _w, _y + _h, x, y) < strength ) {
-				mp_grid_add_rectangle(global.grid_id, _x + _w, _y + _h, _x + _w, _y + _h);
-			}
-		}
+		mp_grid_add_rectangle(global.grid_id, x, y, _x_on_circle, _y_on_circle);
 	}
 }
 	
