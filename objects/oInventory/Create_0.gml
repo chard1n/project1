@@ -11,9 +11,12 @@ inventory.item_add("skull", 1, sSkull);
 inventory.item_add("phone", 1, sPhone);
 inventory.item_add("campFire", 1, sCampFire)
 
+inventory.item_add("pickaxe", 1, sPickaxe)
+inventory.item_add("axe", 1, sAxe)
+
 
 // recipes
-inventory.recipe_add("Electronic Parts", [
+inventory.recipe_add("electronicParts", [
 	{
 		name: "phone",
 		quantity: 1
