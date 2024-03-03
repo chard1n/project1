@@ -18,9 +18,9 @@ to prevent the object from being used again.
 if(keyboard_check_pressed(global.interact_key)) {
 	if(collision_circle(x_center,y_center,interact_radius,oPlayer, false, true)) {
 		// What to do if interacted with
-		if(oInventory.inventory.item_find("Stick") != -1) {
+		if(oInventory.inventory.item_find("stick") != -1) {
 			
-			oInventory.inventory.item_subtract("Stick", 1);
+			oInventory.inventory.item_subtract("stick", 1);
 
 			strength = clamp(strength + stoke_amount,min_strength, max_strength);
 			
