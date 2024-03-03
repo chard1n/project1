@@ -1,5 +1,5 @@
 
-var _keyInventory = keyboard_check_released(ord("E"));
+var _keyInventory = keyboard_check_released(global.inventory_key);
 var _keyEscape = keyboard_check_released(vk_escape);
 var _keyPlace = keyboard_check_released(global.place_key);
 
