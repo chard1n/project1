@@ -1,9 +1,8 @@
+collisions = ds_list_create();
+
 if(doCollisionAlphaCheck) {
-	coll_rect_leaves = collision_rectangle(x, y + (5 * image_yscale), x + sprite_width, y + (50 * image_yscale), global.environment_interactable_objects, false, true);
-	coll_rect_trunk = collision_rectangle(x + (12 * image_xscale), y + (50 * image_yscale), x + (18 * image_xscale), y + sprite_height, global.environment_interactable_objects, false, true);
-} else {
-	coll_rect_leaves = undefined;
-	coll_rect_trunk = undefined;
+	coll_rect_leaves = collision_rectangle_list(x, y + (5 * image_yscale), x + sprite_width, y + (50 * image_yscale), global.environment_interactable_objects, false, true, collisions, false);
+	coll_rect_trunk = collision_rectangle_list(x + (12 * image_xscale), y + (50 * image_yscale), x + (18 * image_xscale), y + sprite_height, global.environment_interactable_objects, false, true, collisions, false);
 }
 
 interact_message = $"Press \"{keytostring(global.interact_key)}\" to break tree";
@@ -21,7 +20,6 @@ if(!has_been_interacted && keyboard_check_pressed(global.interact_key)) {
 			sprite_index = sBigTree2Stump;
 			
 			showMessage($"You got a piece of wood! {amount}x");
-			
 			
 		} 
 	}

@@ -1,3 +1,23 @@
+// Check if cannibal is behind collision_alpha_objects 
+isBehindEnviromentalObject = false;
+for(i = 0; i < array_length(global.collision_alpha_objects); i++) {
+	with(global.collision_alpha_objects[i]) {
+		for(c = 0; c < ds_list_size(collisions); c++) {
+			if(ds_list_find_value(collisions, c).id == other.id) {
+				other.isBehindEnviromentalObject = true;
+			}
+		}
+	}
+}
+
+// If cannibal IS behind collision_alpha_objects, lower alpha.
+// If not, set alpha to 1
+if(isBehindEnviromentalObject) {
+	image_alpha = 0.60;
+} else {
+	image_alpha = 1;
+}
+
 if(updateGridCurrentStep >= updateGridSteps) {
 	
 	mp_grid_destroy(grid_id);

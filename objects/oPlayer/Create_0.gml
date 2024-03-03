@@ -9,5 +9,6 @@ animation_step_delay = 0;
 sprite_frame = 0;
 
 isInsideLight = false;
+isBehindEnviromentalObject = false;
 
 animationState = "idle";

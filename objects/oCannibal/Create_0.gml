@@ -1,3 +1,5 @@
+isBehindEnviromentalObject = false;
+
 eWanderingSpeed = 0.5;
 eHuntingSpeed = 1.0;
 

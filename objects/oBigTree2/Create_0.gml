@@ -1,4 +1,4 @@
-isColliding = false;
+collisions = ds_list_create();
 
 interact_message = "";
 x_center = x + sprite_width / 2;
