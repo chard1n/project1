@@ -2,9 +2,24 @@ if(!opened) {
 	return;	
 }
 
+if(surface_exists(surf)) {
+	
+	// Why does this need to be done?
+	// Only GameMaker and God know because I am FREEING
+	// The surface from memory BUT GameMaker just decides
+	// that it wants to NOT free the surface and keep using
+	// it to draw on. BUT if I don't free it from memory...
+	// MEMORY LEAK!!!
+	surface_set_target(surf);
+	draw_clear_alpha(c_white, 0);
+	surface_reset_target();
+
+	surface_free(surf); // Fixes memory leak!
+	
+}
+
 var g_width = display_get_gui_width();
 var g_height = display_get_gui_height();
-
 
 draw_set(c_black, 0.3);
 
@@ -260,8 +275,7 @@ for(var recipe_index = 0; recipe_index < array_length(_recipies); recipe_index++
 
 surface_reset_target();
 
-draw_surface(surf, ui_padding_x + ui_border_size, ui_padding_y + ui_border_size + (ui_border_size * 8));
 
-surface_free(surf); // Fixes memory leak!
+draw_surface(surf, ui_padding_x + ui_border_size, ui_padding_y + ui_border_size + (ui_border_size * 8));
 
 draw_reset();

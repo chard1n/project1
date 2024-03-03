@@ -1,6 +1,5 @@
-/// @description 
-
 randomize();
+surf = noone;
 
 inventory = new Recipe();
 
