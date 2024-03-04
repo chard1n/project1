@@ -5,8 +5,11 @@ function knockback_object(obj, kb_strength = 0){
 		dirX = lengthdir_x(kb_strength, dir);
 		dirY = lengthdir_y(kb_strength, dir);
 		
-		if(!place_meeting(obj.x + dirX, obj.y + dirY, global.collision_objects)) {
+		if(!place_meeting(obj.x + dirX, obj.y, global.collision_objects)) {
 			obj.x += dirX;
+		}
+		
+		if(!place_meeting(obj.x, obj.y + dirY, global.collision_objects)) {
 			obj.y += dirY;
 		}
 	}
