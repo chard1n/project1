@@ -132,15 +132,17 @@ if(isAttacking) {
 	
 	if(holding.options.isAttackable) {
 		if(holding.options.attackType == AttackType.MELEE) {
-			show_debug_message("MELEE ATTACK");
+			
 			cBox = instance_create_layer(x,y + holding.options.y_offset,"Instances", oCollisionBox);
 			
 			cBox.width = holding.options.attackWidth
 			cBox.height = holding.options.attackHeight;
 			cBox.facing = sign(image_xscale);
+			cBox.knockback_strength = holding.options.knockbackStrength;
+			cBox.damage = holding.options.attackDamage;
 			
 		} else if(holding.options.attackType == AttackType.RANGED) {
-			show_debug_message("RANGED ATTACK");
+			// TODO: Add ranged attack
 		}
 	}
 }
