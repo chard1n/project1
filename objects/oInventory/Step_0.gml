@@ -1,6 +1,7 @@
 if(!opened) {
 	last_selected = noone;
 	selected_index = -1;
+	hovered_index = -1;
 	return;	
 }
 
@@ -20,7 +21,7 @@ var inventory_items = inventory.item_get();
 var pos_x = 0;
 var pos_y = 0; 
 	
-if(mouse_check_button_released(mb_left)) {		
+		
 	#region INVENTORY	
 		for (var row = 0; row < inventory.get_height(); row++) {				
 			pos_y = ui_padding_y + (ui_border_size * 13) + (row * (ui_inventory_margin + ui_inventory_box));
@@ -28,20 +29,25 @@ if(mouse_check_button_released(mb_left)) {
 				pos_x = ui_padding_x + ui_panel_left + ui_border_size + ui_inventory_padding + (column * (ui_inventory_margin + ui_inventory_box));
 				
 				if(is_between(mx, pos_x, pos_x + ui_inventory_box)) {
-					if(is_between(my, pos_y, pos_y + ui_inventory_box)) {
+					if(is_between(my, pos_y, pos_y + ui_inventory_box)) {	
 						var inventory_index = (row * inventory.get_width()) + column;
-						// Check if we have an inventory item here
-						if(inventory_items[inventory_index] != noone && inventory_index != selected_index) {
-							last_selected = inventory_items[inventory_index].name;
-							selected_index = inventory_index;
-						} else {		
-							if(last_selected != noone) {
-								inventory.item_move(last_selected, inventory_index);
-								last_selected = noone;
-								selected_index = -1;
+						
+						hovered_index = inventory_index;
+						
+						if(mouse_check_button_pressed(mb_left)) {
+							// Check if we have an inventory item here
+							if(inventory_items[inventory_index] != noone && inventory_index != selected_index) {
+								last_selected = inventory_items[inventory_index].name;
+								selected_index = inventory_index;
+							} else {		
+								if(last_selected != noone) {
+									inventory.item_move(last_selected, inventory_index);
+									last_selected = noone;
+									selected_index = -1;
+								}
 							}
 						}
-					}
+					}	
 				}
 			}
 		}
@@ -55,11 +61,12 @@ if(mouse_check_button_released(mb_left)) {
 			// hover
 			if(is_between(mx, pos_x + ui_padding_x, pos_x + ui_padding_x + ui_panel_left - 64)) {
 				if(is_between(my, pos_y + ui_padding_y + (ui_border_size * 8), pos_y + ui_padding_y + ui_inventory_box + (ui_border_size * 8))) {
-					if(inventory.recipe_has(_recipies[recipe_index].name)) {
-						inventory.recipe_craft(_recipies[recipe_index].name);
+					if(mouse_check_button_pressed(mb_left)) {
+						if(inventory.recipe_has(_recipies[recipe_index].name)) {
+							inventory.recipe_craft(_recipies[recipe_index].name);
+						}
 					}
 				}
 			}
 		}
 	#endregion
-}

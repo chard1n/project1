@@ -15,12 +15,12 @@ if(isInteractable) {
 			// TODO: Check if player is holding axe?
 			if(/*oPlayer.holding != undefined && oPlayer.holding.name == "axe"*/ true) {
 				amount = irandom_range(1,2);
-				oInventory.inventory.item_add("wood", amount, sWood);
+				item = oInventory.inventory.item_add("wood", amount, sWood);
 				doCollisionAlphaCheck = false;
 				has_been_interacted = true;
 				sprite_index = sBigTree2Stump;
 			
-				showMessage($"You got a piece of wood! {amount}x");
+				showMessage($"You got {item.options.displayName}! {amount}x");
 			
 			} 
 		}

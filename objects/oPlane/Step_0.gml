@@ -7,12 +7,12 @@ if(!has_been_interacted && keyboard_check_pressed(global.interact_key)) {
 		
 		
 			amount = 1;
-			oInventory.inventory.item_add("pocketKnife", amount, sPocketKnife);
+			item = oInventory.inventory.item_add("pocketknife", amount, sPocketKnife);
 			
 			has_been_interacted = true;
 			
 			
-			showMessage($"You got a pocketknife! {amount}x");
+			showMessage($"You got a {item.options.displayName}! {amount}x");
 			
 			
 	

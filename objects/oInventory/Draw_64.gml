@@ -146,6 +146,19 @@ for (var row = 0; row < inventory.get_height(); row++) {
 					false
 				);
 				draw_reset();
+				
+				if(hovered_index != -1 && inventory_items[hovered_index] != noone) {
+					// Draw name on hover
+					draw_set(c_black, 1);
+					text_align(fa_center, fa_middle);		
+					draw_text(
+						pos_x + ui_inventory_box / 2,
+						pos_y,
+						inventory_items[hovered_index].options.displayName
+					);
+					draw_reset();
+				}
+
 			}
 		}
 

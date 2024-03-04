@@ -30,6 +30,11 @@ function Inventory() constructor {
 		}
 	}
 	
+	item_get_from_index = function(_index) {
+		if(_inventory_items[_index] == noone) return noone;
+		return _inventory_items[_index];
+	}
+	
 	item_find = function(_name) {
 		for (var i = 0; i < array_length(_inventory_items); i++) {
 			if(_inventory_items[i] != noone && _name == _inventory_items[i].name) {
@@ -61,6 +66,7 @@ function Inventory() constructor {
 			
 			item_set(_name, _quantity, _sprite, get_item_options(_name));
 		}
+		return item_get_from_index(item_find(_name));
 	}
 	
 	item_subtract = function(_name, _quantity) {
@@ -75,6 +81,7 @@ function Inventory() constructor {
 				}
 			}
 		}
+		return item_get_from_index(item_find(_name));
 	}
 	
 	item_has = function(_name, _quantity) {
