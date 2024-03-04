@@ -1,5 +1,6 @@
 collisions = ds_list_create();
 
+isInteractable = false;
 interact_message = "";
 x_center = x + sprite_width / 2;
 y_center = y + sprite_height - 10;
