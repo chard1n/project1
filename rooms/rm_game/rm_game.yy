@@ -31,6 +31,8 @@
     {"name":"inst_7D9A4667","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_1AA4CA09","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_1B87C369","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_26449618","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_46E3C377","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -59,6 +61,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E10083C","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigTree2","path":"objects/oBigTree2/oBigTree2.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.1,"x":928.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4D4991A7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":704.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1EDA75F6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCannibal","path":"objects/oCannibal/oCannibal.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":512.0,"y":288.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26449618","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCannibal","path":"objects/oCannibal/oCannibal.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":864.0,"y":224.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46E3C377","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCannibal","path":"objects/oCannibal/oCannibal.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":928.0,"y":704.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":55,"SerialiseWidth":55,"TileCompressedData":[
 -48,3,-2,39,5,40,49,50,53,44,-48,3,-2,39,5,40,49,50,53,44,-48,3,-2,39,5,40,49,50,53,44,-48,3,-2,39,5,40,49,50,53,44,-48,3,-2,39,5,40,49,50,53,44,-48,3,-2,39,5,
