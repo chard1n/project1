@@ -1,6 +1,11 @@
 oMaxHealth = 10;
 oHealth = oMaxHealth;
 
+isHurt = false;
+invincibilityTimeMax = 20;
+invincibilityTimer = 0;
+flashForFrames = 10;
+
 _hurtBox = instance_create_layer(x,y, "Instances", oHurtBox);
 _hurtBox.owner = self;
 _hurtBox.width = sprite_width - 30;

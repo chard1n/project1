@@ -111,7 +111,7 @@ isBehindEnviromentalObject = false;
 for(i = 0; i < array_length(global.collision_alpha_objects); i++) {
 	with(global.collision_alpha_objects[i]) {
 		for(c = 0; c < ds_list_size(collisions); c++) {
-			if(ds_list_find_value(collisions, c).id == other.id) {
+			if(instance_exists(ds_list_find_value(collisions, c)) && ds_list_find_value(collisions, c).id == other.id) {
 				other.isBehindEnviromentalObject = true;
 			}
 		}

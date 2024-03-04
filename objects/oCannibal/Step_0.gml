@@ -2,12 +2,17 @@ if(oHealth <= 0) {
 	instance_destroy();	
 }
 
+if(invincibilityTimer > 0) {
+	invincibilityTimer--;
+	if(invincibilityTimer <= invincibilityTimeMax - flashForFrames) isHurt = false;
+}
+
 // Check if cannibal is behind collision_alpha_objects 
 isBehindEnviromentalObject = false;
 for(i = 0; i < array_length(global.collision_alpha_objects); i++) {
 	with(global.collision_alpha_objects[i]) {
 		for(c = 0; c < ds_list_size(collisions); c++) {
-			if(ds_list_find_value(collisions, c).id == other.id) {
+			if(instance_exists(ds_list_find_value(collisions, c)) && ds_list_find_value(collisions, c).id == other.id) {
 				other.isBehindEnviromentalObject = true;
 			}
 		}

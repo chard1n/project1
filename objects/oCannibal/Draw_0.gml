@@ -2,7 +2,13 @@ if (global.debug) {
 	if (path_exists(path)) draw_path(path, x, y, true);
 }
 
-draw_self();
+if(isHurt) {
+	shader_set(shdFlashRed);
+	draw_self();
+	shader_reset();
+} else {
+	draw_self();
+}
 
 draw_healthbar(x - sprite_width / 2, y + sprite_height / 2, x + sprite_width / 2, y + sprite_height / 2 + 10, (oHealth / oMaxHealth) * 100, c_black, c_red, c_lime, 0, true, true)
 
