@@ -21,6 +21,7 @@
     {"name":"oObserver","order":11,"path":"objects/oObserver/oObserver.yy",},
     {"name":"merge_number","order":1,"path":"scripts/merge_number/merge_number.yy",},
     {"name":"oButtonQuit","order":14,"path":"objects/oButtonQuit/oButtonQuit.yy",},
+    {"name":"oTransition","order":17,"path":"objects/oTransition/oTransition.yy",},
     {"name":"sCannibal","order":6,"path":"sprites/sCannibal/sCannibal.yy",},
     {"name":"showMessage","order":4,"path":"scripts/showMessage/showMessage.yy",},
     {"name":"oBigTree2","order":9,"path":"objects/oBigTree2/oBigTree2.yy",},
