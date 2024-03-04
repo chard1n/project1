@@ -1,4 +1,5 @@
-oHealth = 10;
+oMaxHealth = 10;
+oHealth = oMaxHealth;
 
 _hurtBox = instance_create_layer(x,y, "Instances", oHurtBox);
 _hurtBox.owner = self;

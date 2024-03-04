@@ -1,3 +1,7 @@
+if(oHealth <= 0) {
+	instance_destroy();	
+}
+
 // Check if cannibal is behind collision_alpha_objects 
 isBehindEnviromentalObject = false;
 for(i = 0; i < array_length(global.collision_alpha_objects); i++) {

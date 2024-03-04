@@ -4,6 +4,8 @@ if (global.debug) {
 
 draw_self();
 
+draw_healthbar(x - sprite_width / 2, y + sprite_height / 2, x + sprite_width / 2, y + sprite_height / 2 + 10, (oHealth / oMaxHealth) * 100, c_black, c_red, c_lime, 0, true, true)
+
 if (global.debug) {
 	if(oPlayer.holding != undefined) {
 		dir = point_direction(oPlayer.x,oPlayer.y,x,y);
