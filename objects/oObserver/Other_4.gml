@@ -7,6 +7,7 @@ global.environment_interactable_objects = [oPlayer, oCannibal];
 global.collision_alpha_objects = [oBigTree1, oBigTree2, oBigBoulder];
 
 global.messages = [];
+global.debug = false;
 
 
 // Create grid that enemies will use to move

@@ -6,7 +6,7 @@ function get_item_options(argument0){
 			value = { isAttackable: true, attackType: AttackType.MELEE, attackDamage: 2.5, attackWidth: 32, knockbackStrength: 32.0, attackHeight: 16, x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15 };
 			break;
 		case "pickaxe":
-			value = { isAttackable: true, attackType: AttackType.MELEE, attackDamage: 1.0, knockbackStrength: 32.0, attackWidth: 64, attackHeight: 64, x_scale: 0.8, y_scale: 0.8, x_offset: 15, y_offset: 10 };
+			value = { isAttackable: true, attackType: AttackType.MELEE, attackDamage: 1.0, knockbackStrength: 64.0, attackWidth: 64, attackHeight: 64, x_scale: 0.8, y_scale: 0.8, x_offset: 15, y_offset: 10 };
 			break;
 		case "axe":
 			value = { x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
