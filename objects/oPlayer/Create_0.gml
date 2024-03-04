@@ -14,3 +14,6 @@ isInsideLight = false;
 isBehindEnviromentalObject = false;
 
 animationState = "idle";
+
+prev_x = x;
+prev_y = y;

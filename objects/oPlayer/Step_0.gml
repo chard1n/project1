@@ -6,6 +6,10 @@ var _keyPlace = keyboard_check_released(global.place_key);
 var vertMove = keyboard_check(ord("S")) - keyboard_check(ord("W"))
 var horzMove = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 
+
+prev_x = x;
+prev_y = y;
+
 // Inventory
 if(oInventory.opened == false && _keyInventory) {
 	oInventory.opened = true;
