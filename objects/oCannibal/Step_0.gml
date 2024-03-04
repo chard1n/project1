@@ -1,3 +1,14 @@
+/*
+// knockback testing code
+if(keyboard_check_pressed(ord("K"))) { 
+	knockback_distance = 32;
+	dir = point_direction(oPlayer.x,oPlayer.y,x,y);
+	
+	x += lengthdir_x(knockback_distance, dir);
+	y += lengthdir_y(knockback_distance, dir);
+}
+*/
+
 // Check if cannibal is behind collision_alpha_objects 
 isBehindEnviromentalObject = false;
 for(i = 0; i < array_length(global.collision_alpha_objects); i++) {

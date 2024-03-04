@@ -121,3 +121,28 @@ if(isBehindEnviromentalObject) {
 } else {
 	image_alpha = 1;
 }
+
+if(holding != undefined && mouse_check_button_pressed(mb_left)) {
+	isAttacking	= true;
+}
+
+if(isAttacking) {
+	sprite_playing_animation = true;
+	isAttacking = false;
+	
+	if(holding.options.isAttackable) {
+		if(holding.options.attackType == AttackType.MELEE) {
+			show_debug_message("MELEE ATTACK");
+			cBox = instance_create_layer(x,y + holding.options.y_offset,"Instances", oCollisionBox);
+			
+			cBox.width = holding.options.attackWidth
+			cBox.height = holding.options.attackHeight;
+			cBox.facing = sign(image_xscale);
+			
+		} else if(holding.options.attackType == AttackType.RANGED) {
+			show_debug_message("RANGED ATTACK");
+		}
+	}
+}
+
+   

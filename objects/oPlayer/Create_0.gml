@@ -8,6 +8,8 @@ sprite_playing_animation = false;
 animation_step_delay = 0;
 sprite_frame = 0;
 
+isAttacking = false;
+
 isInsideLight = false;
 isBehindEnviromentalObject = false;
 

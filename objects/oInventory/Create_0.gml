@@ -12,6 +12,7 @@ inventory.item_add("campFire", 1, sCampFire)
 
 inventory.item_add("pickaxe", 1, sPickaxe)
 inventory.item_add("axe", 1, sAxe)
+inventory.item_add("boneClub", 1, sBoneClub)
 
 
 // recipes
