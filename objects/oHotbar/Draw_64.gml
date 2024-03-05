@@ -2,8 +2,8 @@ if(!shown) {
 	return;
 }
 draw_rectangle_color(x_offset - padding, y_offset - padding, x_offset + width + padding, y_offset + height + padding, bgd_color, bgd_color, bgd_color, bgd_color, false);
-
 inventory_items = oInventory.inventory.item_get();
+
 for(i = 45; i < array_length(inventory_items); i++) {
 	if(i > 53) continue;
 	

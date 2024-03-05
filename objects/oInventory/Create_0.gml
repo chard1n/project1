@@ -4,21 +4,21 @@ surf = noone;
 inventory = new Recipe();
 
 inventory.item_add("rock", 3);
-inventory.item_add("stick", 2, sStick);
-inventory.item_add("bone", 1, sBone);
-inventory.item_add("skull", 1, sSkull);
-inventory.item_add("phone", 1, sPhone);
-inventory.item_add("campFire", 1, sCampFire)
+inventory.item_add("stick", 2);
+inventory.item_add("bone", 1);
+inventory.item_add("skull", 1);
+inventory.item_add("phone", 1);
+inventory.item_add("campFire", 1)
 
-inventory.item_add("pickaxe", 1, sPickaxe)
-inventory.item_add("axe", 1, sAxe)
-inventory.item_add("boneClub", 1, sBoneClub)
+inventory.item_add("pickaxe", 1)
+inventory.item_add("axe", 1)
+inventory.item_add("boneClub", 1)
 
 
 // recipes
 inventory.recipe_add("electronicParts", [
 	{
-		name: "phone",
+		name: "brokenPhone",
 		quantity: 1
 	}], [{
 		name: "electronicParts",
