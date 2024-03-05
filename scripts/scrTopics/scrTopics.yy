@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "showMessage",
+  "name": "scrTopics",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

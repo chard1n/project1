@@ -28,3 +28,5 @@ with(oCampFire) {
 	
 updateGridSteps = 20;
 updateGridCurrentStep = 0;
+
+
