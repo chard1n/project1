@@ -1,3 +1,4 @@
+if(collisions) ds_list_destroy(collisions);
 collisions = ds_list_create();
 
 if(doCollisionAlphaCheck) {

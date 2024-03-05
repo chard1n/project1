@@ -13,8 +13,9 @@ with(oCampFire) {
 		mp_grid_add_rectangle(global.grid_id, x, y, _x_on_circle, _y_on_circle);
 	}
 }
-	
-updateGridSteps = 20;
+
 updateGridCurrentStep = 0;
+updateGridSteps = 20;
+
 
 startDialogue("StartTutorial");
