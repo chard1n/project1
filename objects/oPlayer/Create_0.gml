@@ -17,3 +17,5 @@ animationState = "idle";
 
 prev_x = x;
 prev_y = y;
+
+typing = false;
