@@ -1,5 +1,5 @@
 //Input
-confirm_key = vk_space
+
 max_input_delay = 5;
 input_delay = max_input_delay;
 
@@ -8,6 +8,7 @@ margin = 16
 padding = 8
 width = display_get_gui_width() / 2
 height = sprite_height;
+continue_message_y_offset = -20;
 
 //center text
 x = (display_get_gui_width() - width) /2;

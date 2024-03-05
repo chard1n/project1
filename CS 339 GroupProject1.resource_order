@@ -45,6 +45,7 @@
     {"name":"knockback_object","order":6,"path":"scripts/knockback_object/knockback_object.yy",},
     {"name":"get_item_options","order":3,"path":"scripts/get_item_options/get_item_options.yy",},
     {"name":"sBigBush","order":5,"path":"sprites/sBigBush/sBigBush.yy",},
+    {"name":"showMessage","order":12,"path":"scripts/showMessage/showMessage.yy",},
     {"name":"sBigTree1Stump","order":7,"path":"sprites/sBigTree1Stump/sBigTree1Stump.yy",},
     {"name":"scrTyping","order":9,"path":"scripts/scrTyping/scrTyping.yy",},
     {"name":"sPhone","order":7,"path":"sprites/sPhone/sPhone.yy",},

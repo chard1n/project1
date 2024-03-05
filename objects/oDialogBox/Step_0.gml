@@ -1,5 +1,5 @@
 //get input
-var confirm = keyboard_check_pressed(confirm_key);
+var confirm = keyboard_check_pressed(global.confirm_key);
 
 text_progress = min(text_progress + text_speed, text_length);
 

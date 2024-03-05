@@ -91,6 +91,7 @@
     {"id":{"name":"shdFlashRed","path":"shaders/shdFlashRed/shdFlashRed.yy",},},
     {"id":{"name":"get_item_options","path":"scripts/get_item_options/get_item_options.yy",},},
     {"id":{"name":"sBigBush","path":"sprites/sBigBush/sBigBush.yy",},},
+    {"id":{"name":"showMessage","path":"scripts/showMessage/showMessage.yy",},},
     {"id":{"name":"sBigTree1Stump","path":"sprites/sBigTree1Stump/sBigTree1Stump.yy",},},
     {"id":{"name":"scrTyping","path":"scripts/scrTyping/scrTyping.yy",},},
     {"id":{"name":"sPhone","path":"sprites/sPhone/sPhone.yy",},},

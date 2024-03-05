@@ -9,7 +9,6 @@ if(oPlayer.typing) {
 	if(keyboard_key && keyboard_check_pressed(keyboard_lastkey)) {
 		if( array_contains(allowedKeys, keyboard_lastchar) ) {
 			inputMessage += keyboard_lastchar;
-			show_debug_message(inputMessage);
 		} else if(keyboard_key == vk_backspace) {
 			if(string_length(inputMessage) > 0) {
 				inputMessage = string_delete(inputMessage, string_length(inputMessage), 1);
@@ -32,7 +31,7 @@ if(oPlayer.typing) {
 			}
 		
 			item = oInventory.inventory.item_add(args[0], amount);
-		
+
 			showMessage($"You got {item.options.displayName}! {amount}x");
 		
 			inputMessage = "";
