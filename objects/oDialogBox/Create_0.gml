@@ -4,12 +4,12 @@ confirm_key = vk_space
 //position
 margin = 16
 padding = 8
-width = display_get_gui_width() - margin * 2;
+width = display_get_gui_width() / 2
 height = sprite_height;
 
 //center text
-x = display_get_gui_width();
-y = display_get_gui_height();
+x = (display_get_gui_width() - width) /2;
+y = display_get_gui_height()- height - margin;
 
 text_font = fn_menu;
 text_color = c_white;
