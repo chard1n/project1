@@ -12,13 +12,10 @@
     {"name":"inst_77D3DB6E","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_73814976","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_53E2DDAD","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_1EDA75F6","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_783CD722","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_7D9A4667","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_1AA4CA09","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_1B87C369","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_26449618","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_46E3C377","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_671C5E60","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_29754BA5","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_507213C0","path":"rooms/rm_game/rm_game.yy",},
@@ -219,6 +216,7 @@
     {"name":"inst_1874CE12","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_718E4E47","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_12CAEF7C","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_3D6C67CB","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -240,10 +238,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_73814976","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigBoulder","path":"objects/oBigBoulder/oBigBoulder.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":992.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53E2DDAD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigBoulder","path":"objects/oBigBoulder/oBigBoulder.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":384.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_29754BA5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGrave","path":"objects/oGrave/oGrave.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":768.0,"y":320.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1EDA75F6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCannibal","path":"objects/oCannibal/oCannibal.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":512.0,"y":288.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26449618","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCannibal","path":"objects/oCannibal/oCannibal.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":864.0,"y":224.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46E3C377","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCannibal","path":"objects/oCannibal/oCannibal.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":928.0,"y":704.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_671C5E60","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":672.0,"y":288.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D6C67CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCannibalSpawner","path":"objects/oCannibalSpawner/oCannibalSpawner.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":448.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Enviroment","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Trees_front","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

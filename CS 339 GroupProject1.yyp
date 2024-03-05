@@ -62,6 +62,7 @@
     {"id":{"name":"oButtonQuit","path":"objects/oButtonQuit/oButtonQuit.yy",},},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
     {"id":{"name":"sCannibal","path":"sprites/sCannibal/sCannibal.yy",},},
+    {"id":{"name":"oCannibalSpawner","path":"objects/oCannibalSpawner/oCannibalSpawner.yy",},},
     {"id":{"name":"oBigTree2","path":"objects/oBigTree2/oBigTree2.yy",},},
     {"id":{"name":"oCannibal","path":"objects/oCannibal/oCannibal.yy",},},
     {"id":{"name":"sBigTree1","path":"sprites/sBigTree1/sBigTree1.yy",},},
