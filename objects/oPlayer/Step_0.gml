@@ -11,6 +11,12 @@ if(!typing) {
 	var horzMove = 0;
 }
 
+if(keyboard_check_pressed(ord("V"))) {
+	
+	player_died();
+	
+}
+
 if(oHealth <= 0) {
 	// TODO: Add what happens when player dies
 	show_debug_message("PLAYER HAS DIED");

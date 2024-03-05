@@ -98,6 +98,10 @@ function Inventory() constructor {
 		_inventory_items[index] = noone;
 	}
 	
+	clear = function() {
+		_inventory_items = array_create(inventory_columns * inventory_rows, noone);
+	}
+	
 	item_get = function() {
 		return _inventory_items;
 	}

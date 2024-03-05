@@ -24,3 +24,7 @@ isBehindEnviromentalObject = false;
 animationState = "idle";
 
 typing = false;
+
+	
+global.spawnPointX = x;
+global.spawnPointY = y;

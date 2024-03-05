@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scrTopics",
+  "name": "Init",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

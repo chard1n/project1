@@ -7,6 +7,7 @@ if( array_length(global.messages) > 0 ) {
 			draw_set_alpha(alpha);
 			draw_set_font(fn_menu); 
 			draw_set_color(c_white); 
+			draw_set_halign(fa_center);
 			draw_text(_x, _y, message_text);
 			draw_reset();
 		}
