@@ -28,32 +28,37 @@ if(isBehindEnviromentalObject) {
 }
 
 if((distance_to_object(oPlayer) > 320 || oPlayer.isInsideLight ) && (state == eState.hunting || state == eState.arrived)) {
-	if(path_exists(path)) path_delete(path);
 	
-	state = eState.wandering;
-	
-	path = path_add();
+	tmp_path = path_add();
 	
 	goX = random(room_width);
 	goY = random(room_height);
 
 
-	mp_grid_path(global.grid_id, path, x, y + sprite_height / 2 - 5, goX, goY , true);
+	mp_grid_path(global.grid_id, tmp_path, x, y + sprite_height / 2 - 5, goX, goY , true);
 	
-	pos = 1;
-
+	if(!path_get_closed(tmp_path)) {
+		if(path_exists(path)) path_delete(path);
+		path = tmp_path;
+		pos = 1;
+		state = eState.wandering;
+	}
+	
 } else if(distance_to_object(oPlayer) <= 320 && !oPlayer.isInsideLight) {
-	if(path_exists(path)) path_delete(path);
 	
-	state = eState.hunting;
+	tmp_path = path_add();
 	
-	path = path_add();
-	
-	mp_grid_path(global.grid_id, path, x, y + sprite_height / 2 - 5, oPlayer.x, oPlayer.y + oPlayer.sprite_height / 2 - 5, true);
+	mp_grid_path(global.grid_id, tmp_path, x, y + sprite_height / 2 - 5, oPlayer.x, oPlayer.y + oPlayer.sprite_height / 2 - 5, true);
 
-	pos = 1;
+	if(!path_get_closed(tmp_path)) {
+		if(path_exists(path)) path_delete(path);
+		path = tmp_path;
+		pos = 1;
+		state = eState.hunting;
+	}
 
 }
+
 
 if(path_exists(path) && path_get_length(path) != 0) {
 			
@@ -77,25 +82,21 @@ if(path_exists(path) && path_get_length(path) != 0) {
 	} else if(state == eState.hunting) {
 		mp_linear_step(x_goto, y_goto - sprite_height / 2 + 5, eHuntingSpeed, false);
 	}
-} else {
+} else if(!path_exists(path) || path_get_closed(path)){
 	
-	if(path_exists(path)) path_delete(path);
-	// Choose random spot if path doesn't exist
-	y -= 1;
-	
-	state = eState.wandering;
-	
-	path = path_add();
+	tmp_path = path_add();
 	
 	goX = random(room_width);
 	goY = random(room_height);
 
 
-	mp_grid_path(global.grid_id, path, x, y + sprite_height / 2 - 5, goX, goY , true);
+	mp_grid_path(global.grid_id, tmp_path, x, y + sprite_height / 2 - 5, goX, goY , true);
 	
-	
-	pos = 1;
+	if(!path_get_closed(tmp_path)) {
+		if(path_exists(path)) path_delete(path);
+		path = tmp_path;
+		pos = 1;
+		state = eState.wandering;
+	}
 }
-
-
 

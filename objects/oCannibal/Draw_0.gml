@@ -10,6 +10,8 @@ if(isHurt) {
 	draw_self();
 }
 
+draw_text(x, y + 100, state)
+
 draw_healthbar(x - sprite_width / 2, y + sprite_height / 2, x + sprite_width / 2, y + sprite_height / 2 + 10, (oHealth / oMaxHealth) * 100, c_black, c_red, c_lime, 0, true, true)
 
 if (global.debug) {
