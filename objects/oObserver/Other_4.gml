@@ -31,4 +31,4 @@ updateGridSteps = 20;
 updateGridCurrentStep = 0;
 
 
-startDialogue("Example");
+startDialogue("StartTutorial");

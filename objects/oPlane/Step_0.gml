@@ -14,7 +14,7 @@ if(!has_been_interacted && keyboard_check_pressed(global.interact_key)) {
 			
 			showMessage($"You got a {item.options.displayName}! {amount}x");
 			
-			
+			startDialogue("OpenInventory");
 	
 	}
 }
