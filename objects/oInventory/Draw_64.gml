@@ -226,7 +226,7 @@ for(var recipe_index = 0; recipe_index < array_length(_recipies); recipe_index++
 		draw_sprite(sInventory_Recipe_Box, 0, pos_x, pos_y);
 		draw_sprite(_recipies[recipe_index].sprite, 0, pos_x + sprite_get_width(_recipies[recipe_index].sprite) / 2, pos_y + sprite_get_height(_recipies[recipe_index].sprite) / 2);
 	
-		draw_set_halign(fa_left);
+		text_align(fa_left, fa_middle);
 		draw_text(pos_x + 56, pos_y + 16, string(_recipies[recipe_index].name) + " (" + string(_recipies[recipe_index].products[0].quantity) + ")");
 	
 		var requirement_string = "";
