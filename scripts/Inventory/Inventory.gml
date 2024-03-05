@@ -30,6 +30,7 @@ function Inventory() constructor {
 	}
 	
 	item_get_from_index = function(_index) {
+		if(_index < 0) return noone;
 		if(_inventory_items[_index] == noone) return noone;
 		return _inventory_items[_index];
 	}
