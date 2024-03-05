@@ -29,6 +29,8 @@ if(isBehindEnviromentalObject) {
 
 if((distance_to_object(oPlayer) > 320 || oPlayer.isInsideLight ) && (state == eState.hunting || state == eState.arrived)) {
 	
+	if(path_exists(tmp_path)) path_delete(tmp_path);
+	
 	tmp_path = path_add();
 	
 	goX = random(room_width);
@@ -44,7 +46,10 @@ if((distance_to_object(oPlayer) > 320 || oPlayer.isInsideLight ) && (state == eS
 		state = eState.wandering;
 	}
 	
+	
 } else if(distance_to_object(oPlayer) <= 320 && !oPlayer.isInsideLight) {
+		
+	if(path_exists(tmp_path)) path_delete(tmp_path);
 	
 	tmp_path = path_add();
 	
@@ -56,6 +61,8 @@ if((distance_to_object(oPlayer) > 320 || oPlayer.isInsideLight ) && (state == eS
 		pos = 1;
 		state = eState.hunting;
 	}
+	
+
 
 }
 
@@ -84,11 +91,12 @@ if(path_exists(path) && path_get_length(path) != 0) {
 	}
 } else if(!path_exists(path) || path_get_closed(path)){
 	
+	if(path_exists(tmp_path)) path_delete(tmp_path);
+	
 	tmp_path = path_add();
 	
 	goX = random(room_width);
 	goY = random(room_height);
-
 
 	mp_grid_path(global.grid_id, tmp_path, x, y + sprite_height / 2 - 5, goX, goY , true);
 	
@@ -98,5 +106,6 @@ if(path_exists(path) && path_get_length(path) != 0) {
 		pos = 1;
 		state = eState.wandering;
 	}
+	
 }
 

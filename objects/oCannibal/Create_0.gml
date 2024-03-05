@@ -22,6 +22,7 @@ eWanderingSpeed = 0.5;
 eHuntingSpeed = 1.0;
 
 path = noone;
+tmp_path = noone;
 
 state = eState.arrived;
 pos = 1;
