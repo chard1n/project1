@@ -8,5 +8,6 @@ if (global.debug) {
 	for (j = 0; j < room_width; j += 64) {
 		draw_line_width(0, j, room_width, j, 3);
 	}
-	draw_set_alpha(1);
+	
+	draw_reset();
 }

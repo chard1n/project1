@@ -3,7 +3,7 @@ surf = noone;
 
 inventory = new Recipe();
 
-inventory.item_add("rock", 3, sRock);
+inventory.item_add("rock", 3);
 inventory.item_add("stick", 2, sStick);
 inventory.item_add("bone", 1, sBone);
 inventory.item_add("skull", 1, sSkull);

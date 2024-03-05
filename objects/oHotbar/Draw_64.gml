@@ -57,7 +57,7 @@ for(i = 45; i < array_length(inventory_items); i++) {
 		inventory_items[i].quantity
 	);
 
-	draw_sprite(inventory_items[i].sprite, 0, box_x + sprite_get_width(inventory_items[i].sprite) / 2, box_y + sprite_get_height(inventory_items[i].sprite) / 2);
+	draw_sprite(inventory_items[i].options.sprite, 0, box_x + sprite_get_width(inventory_items[i].options.sprite) / 2, box_y + sprite_get_height(inventory_items[i].options.sprite) / 2);
 
 }
 

@@ -3,18 +3,23 @@ var _keyInventory = keyboard_check_released(global.inventory_key);
 var _keyEscape = keyboard_check_released(vk_escape);
 var _keyPlace = keyboard_check_released(global.place_key);
 
-var vertMove = keyboard_check(ord("S")) - keyboard_check(ord("W"))
-var horzMove = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+if(!typing) {
+	var vertMove = keyboard_check(ord("S")) - keyboard_check(ord("W"))
+	var horzMove = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+} else {
+	var vertMove = 0;
+	var horzMove = 0;
+}
 
 
 prev_x = x;
 prev_y = y;
 
 // Inventory
-if(oInventory.opened == false && _keyInventory) {
+if(oInventory.opened == false && _keyInventory && !typing) {
 	oInventory.opened = true;
 	oHotbar.shown = false;
-} else if(oInventory.opened == true && (_keyEscape || _keyInventory)) {
+} else if(oInventory.opened == true && (_keyEscape || _keyInventory) && !typing) {
 	oInventory.opened = false;
 	oHotbar.shown = true;
 }
@@ -82,7 +87,7 @@ with(oCampFire) {
 }
 
 // Place held item
-if(_keyPlace) {
+if(_keyPlace && !typing) {
 	if(!place_meeting(x,y,global.collision_objects)) {
 		if(holding != undefined) {
 			if(holding.options.isPlaceable) {
@@ -94,11 +99,11 @@ if(_keyPlace) {
 }
 
 // End held item animation if at end animation
-if (holding != undefined && sprite_frame >= sprite_get_number(holding.sprite) - 1) {
+if (holding != undefined && sprite_frame >= sprite_get_number(holding.options.sprite) - 1) {
     sprite_frame = 0;
 	if(!holding.options.loopAnimation) sprite_playing_animation = false;
 } else if(holding != undefined && sprite_playing_animation) {
-	if(animation_step_delay >= sprite_get_speed(holding.sprite)) {
+	if(animation_step_delay >= sprite_get_speed(holding.options.sprite)) {
 		sprite_frame++;
 		animation_step_delay = 0;
 	} else {

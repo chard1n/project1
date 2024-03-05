@@ -13,11 +13,10 @@ function Inventory() constructor {
 		return inventory_rows;
 	}
 	
-	item_set = function(_name, _quantity, _sprite, _held) {
+	item_set = function(_name, _quantity, _held) {
 		_inventory_items[find_open_index()] = {
 			name: _name,
 			quantity: _quantity,
-			sprite: _sprite,
 			options: _held,
 		};
 	}
@@ -57,14 +56,14 @@ function Inventory() constructor {
 		_inventory_items[original_idx] = noone;
 	}
 	
-	item_add = function(_name, _quantity, _sprite) {
+	item_add = function(_name, _quantity) {
 		var index = item_find(_name);
 		
 		if(index >= 0) {
 			_inventory_items[index].quantity += _quantity;
 		} else {
 			
-			item_set(_name, _quantity, _sprite, get_item_options(_name));
+			item_set(_name, _quantity, get_item_options(_name));
 		}
 		return item_get_from_index(item_find(_name));
 	}
