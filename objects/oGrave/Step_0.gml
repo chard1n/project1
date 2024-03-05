@@ -8,7 +8,7 @@ if(isInteractable) {
 			for(i = 0; i < array_length(stored_items); i++) {
 				item = oInventory.inventory.item_add(stored_items[i].name, stored_items[i].quantity);
 				
-				showMessage($"You got {item.options.displayName}! {stored_items[i].quantity}x");
+				showMessage($"Collected {item.options.displayName}! {stored_items[i].quantity}x");
 			}
 			
 			has_been_interacted = true;
