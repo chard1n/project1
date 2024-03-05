@@ -1,5 +1,7 @@
 //Input
 confirm_key = vk_space
+max_input_delay = 5;
+input_delay = max_input_delay;
 
 //position
 margin = 16
