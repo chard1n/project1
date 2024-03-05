@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
-
-
+if(damage_object(oPlayer, damage)) {
+	knockback_object(oPlayer, self, knockback_strength);
+}

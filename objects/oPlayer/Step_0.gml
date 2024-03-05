@@ -11,9 +11,15 @@ if(!typing) {
 	var horzMove = 0;
 }
 
+if(oHealth <= 0) {
+	// TODO: Add what happens when player dies
+	show_debug_message("PLAYER HAS DIED");
+}
 
-prev_x = x;
-prev_y = y;
+if(invincibilityTimer > 0) {
+	invincibilityTimer--;
+	if(invincibilityTimer <= invincibilityTimeMax - flashForFrames) isHurt = false;
+}
 
 // Inventory
 if(oInventory.opened == false && _keyInventory && !typing) {

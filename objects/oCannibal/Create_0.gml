@@ -6,6 +6,9 @@ invincibilityTimeMax = 20;
 invincibilityTimer = 0;
 flashForFrames = 10;
 
+damage = 3;
+knockback_strength = 15;
+
 _hurtBox = instance_create_layer(x,y, "Instances", oHurtBox);
 _hurtBox.owner = self;
 _hurtBox.width = sprite_width - 30;

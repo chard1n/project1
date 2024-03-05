@@ -1,3 +1,11 @@
+oMaxHealth = 50;
+oHealth = oMaxHealth;
+
+isHurt = false;
+invincibilityTimeMax = 20;
+invincibilityTimer = 0;
+flashForFrames = 10;
+
 spd = 3
 xspd = 0
 yspd = 0
@@ -14,8 +22,5 @@ isInsideLight = false;
 isBehindEnviromentalObject = false;
 
 animationState = "idle";
-
-prev_x = x;
-prev_y = y;
 
 typing = false;
