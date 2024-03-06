@@ -25,7 +25,7 @@ if(keyboard_check_pressed(global.interact_key)) {
 			strength = clamp(strength + stoke_amount,min_strength, max_strength);
 			
 		} else {
-			// TODO: Alert player that they are missing resources!	
+			showMessage($"You need to have sticks to stoke the fire!");
 		}
 
 	}

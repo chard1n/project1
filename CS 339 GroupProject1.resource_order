@@ -10,6 +10,7 @@
   "ResourceOrderSettings": [
     {"name":"sCampFireOut","order":13,"path":"sprites/sCampFireOut/sCampFireOut.yy",},
     {"name":"sPocketKnife","order":6,"path":"sprites/sPocketKnife/sPocketKnife.yy",},
+    {"name":"sFiber","order":16,"path":"sprites/sFiber/sFiber.yy",},
     {"name":"sCoal","order":15,"path":"sprites/sCoal/sCoal.yy",},
     {"name":"sSkull","order":2,"path":"sprites/sSkull/sSkull.yy",},
     {"name":"oBigBush","order":10,"path":"objects/oBigBush/oBigBush.yy",},
@@ -39,6 +40,7 @@
     {"name":"sDoesNotExists","order":12,"path":"sprites/sDoesNotExists/sDoesNotExists.yy",},
     {"name":"damage_object","order":8,"path":"scripts/damage_object/damage_object.yy",},
     {"name":"oBorder","order":18,"path":"objects/oBorder/oBorder.yy",},
+    {"name":"sRope","order":18,"path":"sprites/sRope/sRope.yy",},
     {"name":"topics","order":16,"path":"scripts/topics/topics.yy",},
     {"name":"sBoneClub","order":5,"path":"sprites/sBoneClub/sBoneClub.yy",},
     {"name":"oGrave","order":20,"path":"objects/oGrave/oGrave.yy",},
@@ -58,6 +60,7 @@
     {"name":"showMessage","order":12,"path":"scripts/showMessage/showMessage.yy",},
     {"name":"sRawMetal","order":13,"path":"sprites/sRawMetal/sRawMetal.yy",},
     {"name":"oMetalRock","order":22,"path":"objects/oMetalRock/oMetalRock.yy",},
+    {"name":"sHerb","order":17,"path":"sprites/sHerb/sHerb.yy",},
     {"name":"sBigTree1Stump","order":5,"path":"sprites/sBigTree1Stump/sBigTree1Stump.yy",},
     {"name":"setGlobalVariables","order":15,"path":"scripts/setGlobalVariables/setGlobalVariables.yy",},
     {"name":"scrTyping","order":9,"path":"scripts/scrTyping/scrTyping.yy",},

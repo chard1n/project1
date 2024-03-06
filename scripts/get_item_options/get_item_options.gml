@@ -43,6 +43,14 @@ function get_item_options(argument0){
 			break;
 		case "rawMetal":
 			value = { sprite: sRawMetal, displayName: "Raw Metal", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0};
+		case "fiber":
+			value = { sprite: sFiber, displayName: "Fiber", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
+			break;
+		case "herb":
+			value = { sprite: sHerb, displayName: "Herb", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
+			break;
+		case "rope":
+			value = { sprite: sRope, displayName: "Rope", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
 			break;
 	}
 	return validateJson(value);

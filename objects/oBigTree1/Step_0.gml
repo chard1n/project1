@@ -12,8 +12,7 @@ if(isInteractable) {
 	if(!has_been_interacted && keyboard_check_pressed(global.interact_key)) {
 		if(collision_circle(x_center,y_center,interact_radius,oPlayer, false, true)) {
 			// What to do if interacted with
-			// TODO: Check if player is holding axe?
-			if(/*oPlayer.holding != undefined && oPlayer.holding.name == "axe"*/ true) {
+			if(oPlayer.holding != undefined && oPlayer.holding.name == "axe") {
 				amount = irandom_range(1,2);
 				item = oInventory.inventory.item_add("wood", amount);
 				doCollisionAlphaCheck = false;
@@ -22,7 +21,16 @@ if(isInteractable) {
 			
 				showMessage($"Collected {item.options.displayName}! {amount}x");
 			
-			} 
+				stickAmount = irandom_range(0,2);
+				
+				if(stickAmount > 0) {
+					item = oInventory.inventory.item_add("stick", stickAmount);
+					showMessage($"Collected {item.options.displayName}! {stickAmount}x");
+				}
+				
+			} else {
+				showMessage($"You need to be holding an axe to chop down a tree!");
+			}
 		}
 	}
 }
