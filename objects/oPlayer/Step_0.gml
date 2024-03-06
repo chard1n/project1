@@ -18,8 +18,8 @@ if(keyboard_check_pressed(ord("V"))) {
 }
 
 if(oHealth <= 0) {
-	// TODO: Add what happens when player dies
-	show_debug_message("PLAYER HAS DIED");
+	player_died();
+	oHealth = oMaxHealth
 }
 
 if(invincibilityTimer > 0) {
