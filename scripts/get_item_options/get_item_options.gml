@@ -40,7 +40,10 @@ function get_item_options(argument0){
 			break;
 		case "rawCopper":
 			value = { sprite: sRawCopper, displayName: "Raw Copper", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
-	
+			break;
+		case "rawMetal":
+			value = { sprite: sRawMetal, displayName: "Raw Metal", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0};
+			break;
 	}
 	return validateJson(value);
 }

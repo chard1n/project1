@@ -17,7 +17,7 @@ if(isInteractable) {
 				item = oInventory.inventory.item_add("rawCopper", amount);
 				doCollisionAlphaCheck = false;
 				has_been_interacted = true;
-				sprite_index = sBigTree1Stump;
+				sprite_index = sRockRubble;
 			
 				showMessage($"Collected {item.options.displayName}! {amount}x");
 			
