@@ -44,6 +44,9 @@ function get_item_options(argument0){
 		case "rawMetal":
 			value = { sprite: sRawMetal, displayName: "Raw Metal", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0};
 			break;
+		case "metal":
+			value = { sprite: sMetal, displayName: "Metal", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0};
+			break;
 		case "fiber":
 			value = { sprite: sFiber, displayName: "Fiber", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
 			break;
@@ -52,6 +55,21 @@ function get_item_options(argument0){
 			break;
 		case "rope":
 			value = { sprite: sRope, displayName: "Rope", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
+			break;
+		case "coal":
+			value = { sprite: sCoal, displayName: "Coal", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
+			break;
+		case "copperWire":
+			value = { sprite: sCopperWire, displayName: "Copper Wire", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
+			break;
+		case "cloth":
+			value = { sprite: sCloth, displayName: "Cloth", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
+			break;
+		case "bandages":
+			value = { sprite: sBandages, displayName: "Bandages", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
+			break;
+		case "antenna":
+			value = { sprite: sAntenna, displayName: "Antenna", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
 			break;
 	}
 	return validateJson(value);
