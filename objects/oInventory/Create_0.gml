@@ -23,6 +23,7 @@ inventory.recipe_add("electronicParts", [
 	}], [{
 		name: "electronicParts",
 		quantity: 1,
+		sprite: sElectronicParts,
 	}], sElectronicParts);
 	
 inventory.recipe_add("boneClub", [
@@ -36,15 +37,21 @@ inventory.recipe_add("boneClub", [
 	}], [{
 		name: "boneClub",
 		quantity: 1,
+		sprite: sBoneClub,
 	}], sBoneClub, "Great for attacking enemies");
 	
 inventory.recipe_add("pickaxe", [
 	{
 		name: "rock",
 		quantity: 5
-	},], [{
+	},
+	{
 		name: "stick",
 		quantity: 2,
+	}], [{
+		name: "pickaxe",
+		quantity: 1,
+		sprite: sPickaxe,
 	}], sPickaxe, "Used to break large rocks");
 	
 	
