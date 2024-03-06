@@ -146,19 +146,6 @@ for (var row = 0; row < inventory.get_height(); row++) {
 					false
 				);
 				draw_reset();
-				
-				if(hovered_index != -1 && inventory_items[hovered_index] != noone) {
-					// Draw name on hover
-					draw_set(c_black, 1);
-					text_align(fa_center, fa_middle);		
-					draw_text(
-						pos_x + ui_inventory_box / 2,
-						pos_y,
-						inventory_items[hovered_index].options.displayName
-					);
-					draw_reset();
-				}
-
 			}
 		}
 
@@ -207,6 +194,33 @@ for(var itemIdx = 0; itemIdx < array_length(inventory_items); itemIdx++) {
 			inventory_items[itemIdx].quantity
 		);
 				
+}
+
+// Draw name on hover
+for (var row = 0; row < inventory.get_height(); row++) {
+	var pos_y = ui_padding_y + (ui_border_size * 13) +
+	(row * (ui_inventory_margin + ui_inventory_box));
+    for (var column = 0; column < inventory.get_width(); column++) {
+		var pos_x = ui_padding_x + ui_panel_left + ui_border_size + ui_inventory_padding + (column * (ui_inventory_margin + ui_inventory_box));
+		
+		/// if our mouse is between one of the columns let's highlight it
+		if(is_between(mx, pos_x, pos_x + ui_inventory_box)) {
+			if(is_between(my, pos_y, pos_y + ui_inventory_box)) {
+				if(hovered_index != -1 && inventory_items[hovered_index] != noone) {
+					// Draw name on hover
+					draw_set(c_black, 1);
+					text_align(fa_center, fa_middle);		
+					draw_text(
+						pos_x + ui_inventory_box / 2,
+						pos_y,
+						inventory_items[hovered_index].options.displayName
+					);
+					draw_reset();
+				}
+
+			}
+		}
+	}
 }
 		
 _x =  ( ui_panel_left + ui_padding_x ) - ( ui_padding_x + ui_border_size );
