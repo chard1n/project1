@@ -219,7 +219,6 @@
     {"name":"inst_4592410C","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_354E29A3","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_5817FB6D","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_24397D95","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_6AEEBBA9","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd": false,

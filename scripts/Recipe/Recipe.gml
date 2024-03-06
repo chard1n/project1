@@ -25,12 +25,13 @@ function Recipe() : Inventory() constructor {
 		return -1;
 	}
 	
-	recipe_add = function(_name, _requirement, _products, _sprite) {
+	recipe_add = function(_name, _requirement, _products, _sprite, _description = "") {
 		array_push(_recipies, {
 			name: _name,
 			requirements: _requirement,
 			products: _products,
 			sprite: _sprite,
+			description: _description,
 		});
 	}
 

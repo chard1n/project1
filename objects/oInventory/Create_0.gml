@@ -3,8 +3,8 @@ surf = noone;
 
 inventory = new Recipe();
 
-inventory.item_add("rock", 3);
-inventory.item_add("stick", 2);
+inventory.item_add("rock", 8);
+inventory.item_add("stick", 4);
 inventory.item_add("bone", 1);
 inventory.item_add("skull", 1);
 inventory.item_add("brokenPhone", 1);
@@ -23,7 +23,6 @@ inventory.recipe_add("electronicParts", [
 	}], [{
 		name: "electronicParts",
 		quantity: 1,
-		sprite: sElectronicParts
 	}], sElectronicParts);
 	
 inventory.recipe_add("boneClub", [
@@ -37,18 +36,16 @@ inventory.recipe_add("boneClub", [
 	}], [{
 		name: "boneClub",
 		quantity: 1,
-		sprite: sBoneClub
-	}], sBoneClub);
+	}], sBoneClub, "Great for attacking enemies");
 	
-inventory.recipe_add("rock", [
+inventory.recipe_add("pickaxe", [
 	{
 		name: "rock",
-		quantity: 3
+		quantity: 5
 	},], [{
-		name: "rock",
+		name: "stick",
 		quantity: 2,
-		sprite: sRock
-	}], sRock);
+	}], sPickaxe, "Used to break large rocks");
 	
 	
 // UI INFORMATION //
