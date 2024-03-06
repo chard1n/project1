@@ -56,6 +56,7 @@
     {"name":"showMessage","order":12,"path":"scripts/showMessage/showMessage.yy",},
     {"name":"sRawMetal","order":13,"path":"sprites/sRawMetal/sRawMetal.yy",},
     {"name":"oMetalRock","order":22,"path":"objects/oMetalRock/oMetalRock.yy",},
+    {"name":"sHerb","order":17,"path":"sprites/sHerb/sHerb.yy",},
     {"name":"sBigTree1Stump","order":5,"path":"sprites/sBigTree1Stump/sBigTree1Stump.yy",},
     {"name":"setGlobalVariables","order":15,"path":"scripts/setGlobalVariables/setGlobalVariables.yy",},
     {"name":"scrTyping","order":9,"path":"scripts/scrTyping/scrTyping.yy",},

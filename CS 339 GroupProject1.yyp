@@ -103,6 +103,7 @@
     {"id":{"name":"showMessage","path":"scripts/showMessage/showMessage.yy",},},
     {"id":{"name":"sRawMetal","path":"sprites/sRawMetal/sRawMetal.yy",},},
     {"id":{"name":"oMetalRock","path":"objects/oMetalRock/oMetalRock.yy",},},
+    {"id":{"name":"sHerb","path":"sprites/sHerb/sHerb.yy",},},
     {"id":{"name":"sBigTree1Stump","path":"sprites/sBigTree1Stump/sBigTree1Stump.yy",},},
     {"id":{"name":"setGlobalVariables","path":"scripts/setGlobalVariables/setGlobalVariables.yy",},},
     {"id":{"name":"scrTyping","path":"scripts/scrTyping/scrTyping.yy",},},
