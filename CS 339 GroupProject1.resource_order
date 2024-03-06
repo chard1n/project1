@@ -10,6 +10,7 @@
   "ResourceOrderSettings": [
     {"name":"sCampFireOut","order":13,"path":"sprites/sCampFireOut/sCampFireOut.yy",},
     {"name":"sPocketKnife","order":6,"path":"sprites/sPocketKnife/sPocketKnife.yy",},
+    {"name":"sFiber","order":16,"path":"sprites/sFiber/sFiber.yy",},
     {"name":"sCoal","order":15,"path":"sprites/sCoal/sCoal.yy",},
     {"name":"sSkull","order":2,"path":"sprites/sSkull/sSkull.yy",},
     {"name":"oBigBush","order":10,"path":"objects/oBigBush/oBigBush.yy",},
@@ -27,7 +28,6 @@
     {"name":"oButtonQuit","order":14,"path":"objects/oButtonQuit/oButtonQuit.yy",},
     {"name":"oTransition","order":17,"path":"objects/oTransition/oTransition.yy",},
     {"name":"sMetal","order":14,"path":"sprites/sMetal/sMetal.yy",},
-    {"name":"scopperWire","order":13,"path":"sprites/scopperWire/scopperWire.yy",},
     {"name":"sCannibal","order":6,"path":"sprites/sCannibal/sCannibal.yy",},
     {"name":"oCannibalSpawner","order":21,"path":"objects/oCannibalSpawner/oCannibalSpawner.yy",},
     {"name":"oBigTree2","order":9,"path":"objects/oBigTree2/oBigTree2.yy",},
