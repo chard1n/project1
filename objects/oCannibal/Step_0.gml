@@ -35,7 +35,7 @@ if((distance_to_object(oPlayer) > 320 || oPlayer.isInsideLight ) && (state == eS
 	goY = random(room_height);
 
 
-	mp_grid_path(global.grid_id, tmp_path, x, y + sprite_height / 2 - 5, goX, goY , true);
+	mp_grid_path(global.grid_id, tmp_path, x, y + sprite_height / 2, goX, goY , true);
 	
 	if(!path_get_closed(tmp_path)) {
 		if(path_exists(path)) path_delete(path);
@@ -51,7 +51,7 @@ if((distance_to_object(oPlayer) > 320 || oPlayer.isInsideLight ) && (state == eS
 		
 	tmp_path = path_add();
 	
-	mp_grid_path(global.grid_id, tmp_path, x, y + sprite_height / 2 - 5, oPlayer.x, oPlayer.y + oPlayer.sprite_height / 2 - 5, true);
+	mp_grid_path(global.grid_id, tmp_path, x, y + sprite_height / 2, oPlayer.x, oPlayer.y + oPlayer.sprite_height / 2, true);
 
 	if(!path_get_closed(tmp_path)) {
 		if(path_exists(path)) path_delete(path);
@@ -70,7 +70,7 @@ if(path_exists(path) && path_get_length(path) != 0) {
 	x_goto = path_get_point_x(path, pos);
 	y_goto = path_get_point_y(path, pos);
 
-	if (point_distance(x, y + sprite_height / 2 - 5, x_goto, y_goto) < 8 || path_get_number(path) == 0 )
+	if (point_distance(x, y + sprite_height / 2, x_goto, y_goto) < 1 || path_get_number(path) == 0 )
 	{
 		if (++pos == path_get_number(path) ) {
 			if(path_exists(path)) path_delete(path);
@@ -83,9 +83,9 @@ if(path_exists(path) && path_get_length(path) != 0) {
 	}
 	
 	if(state == eState.wandering) {
-		mp_linear_step(x_goto, y_goto - sprite_height / 2 + 5, eWanderingSpeed, false);
+		mp_linear_step(x_goto, y_goto - sprite_height / 2, eWanderingSpeed, false);
 	} else if(state == eState.hunting) {
-		mp_linear_step(x_goto, y_goto - sprite_height / 2 + 5, eHuntingSpeed, false);
+		mp_linear_step(x_goto, y_goto - sprite_height / 2, eHuntingSpeed, false);
 	}
 } else if(!path_exists(path) || path_get_closed(path)){
 	
@@ -94,7 +94,7 @@ if(path_exists(path) && path_get_length(path) != 0) {
 	goX = random(room_width);
 	goY = random(room_height);
 
-	mp_grid_path(global.grid_id, tmp_path, x, y + sprite_height / 2 - 5, goX, goY , true);
+	mp_grid_path(global.grid_id, tmp_path, x, y + sprite_height / 2, goX, goY , true);
 	
 	if(!path_get_closed(tmp_path)) {
 		if(path_exists(path)) path_delete(path);
