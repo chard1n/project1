@@ -20,8 +20,8 @@ function get_item_options(argument0){
 		case "electronicParts":
 			value = { sprite: sElectronicParts, displayName: "Electronic Parts", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
 			break;
-		case "phone":
-			value = { sprite: sPhone, displayName: "Phone", x_scale: 0.8, y_scale: 0.8, x_offset: 15, y_offset: 13 };
+		case "brokenPhone":
+			value = { sprite: sBrokenPhone, displayName: "Broken Phone", x_scale: 0.8, y_scale: 0.8, x_offset: 15, y_offset: 13 };
 			break;
 		case "pocketknife":
 			value = { sprite: sPocketKnife, displayName: "Pocketknife", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };

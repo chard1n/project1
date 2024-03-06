@@ -7,7 +7,7 @@ inventory.item_add("rock", 3);
 inventory.item_add("stick", 2);
 inventory.item_add("bone", 1);
 inventory.item_add("skull", 1);
-inventory.item_add("phone", 1);
+inventory.item_add("brokenPhone", 1);
 inventory.item_add("campFire", 1)
 
 inventory.item_add("pickaxe", 1)

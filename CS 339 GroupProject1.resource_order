@@ -52,7 +52,7 @@
     {"name":"sBigTree1Stump","order":5,"path":"sprites/sBigTree1Stump/sBigTree1Stump.yy",},
     {"name":"setGlobalVariables","order":15,"path":"scripts/setGlobalVariables/setGlobalVariables.yy",},
     {"name":"scrTyping","order":9,"path":"scripts/scrTyping/scrTyping.yy",},
-    {"name":"sPhone","order":7,"path":"sprites/sPhone/sPhone.yy",},
+    {"name":"sBrokenPhone","order":7,"path":"sprites/sBrokenPhone/sBrokenPhone.yy",},
     {"name":"fn_menu","order":1,"path":"fonts/fn_menu/fn_menu.yy",},
     {"name":"sCampFire","order":9,"path":"sprites/sCampFire/sCampFire.yy",},
     {"name":"oPlane","order":1,"path":"objects/oPlane/oPlane.yy",},
