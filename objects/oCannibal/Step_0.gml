@@ -101,6 +101,8 @@ if(path_exists(path) && path_get_length(path) != 0) {
 		path = path_duplicate(tmp_path);
 		pos = 1;
 		state = eState.wandering;
+	} else {
+		y--;	
 	}
 	
 	if(path_exists(tmp_path)) path_delete(tmp_path);
