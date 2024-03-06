@@ -11,22 +11,20 @@ if(isInteractable) {
 	if(!has_been_interacted && keyboard_check_pressed(global.interact_key)) {
 		if(collision_circle(x_center,y_center,interact_radius,oPlayer, false, true)) {
 			// What to do if interacted with
-			if(true) {
-				herbAmount = irandom_range(0,2);
-				if(herbAmount > 0) {
-					item = oInventory.inventory.item_add("herb", herbAmount);
-					showMessage($"Collected {item.options.displayName}! {herbAmount}x");
-				}
+			herbAmount = irandom_range(0,2);
+			if(herbAmount > 0) {
+				item = oInventory.inventory.item_add("herb", herbAmount);
+				showMessage($"Collected {item.options.displayName}! {herbAmount}x");
+			}
 				
-				fiberAmount = irandom_range(1,2);
+			fiberAmount = irandom_range(1,2);
 				
-				item = oInventory.inventory.item_add("fiber", fiberAmount);
+			item = oInventory.inventory.item_add("fiber", fiberAmount);
 					
-				showMessage($"Collected {item.options.displayName}! {fiberAmount}x");
+			showMessage($"Collected {item.options.displayName}! {fiberAmount}x");
 				
-				doCollisionAlphaCheck = false;
-				has_been_interacted = true;
-			} 
+			doCollisionAlphaCheck = false;
+			has_been_interacted = true;
 		}
 	}
 }
