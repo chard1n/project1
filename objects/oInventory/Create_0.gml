@@ -13,6 +13,7 @@ inventory.item_add("campFire", 1)
 inventory.item_add("pickaxe", 1)
 inventory.item_add("axe", 1)
 inventory.item_add("boneClub", 1)
+inventory.item_add("bandages", 8)
 
 
 // recipes

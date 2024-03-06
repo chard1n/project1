@@ -66,7 +66,7 @@ function get_item_options(argument0){
 			value = { sprite: sCloth, displayName: "Cloth", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
 			break;
 		case "bandages":
-			value = { sprite: sBandages, displayName: "Bandages", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
+			value = { sprite: sBandages, displayName: "Bandages", isConsumable: true, x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
 			break;
 		case "antenna":
 			value = { sprite: sAntenna, displayName: "Antenna", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
@@ -76,7 +76,7 @@ function get_item_options(argument0){
 }
 
 function validateJson(_json) {
-		requiredJson = { sprite: sDoesNotExists, displayName: "", object: noone, isPlaceable: false, isAttackable: false, attackType: AttackType.NONE, attackDamage: 0.0, knockbackStrength: 0.0, attackWidth: 1, attackHeight: 1, x_scale: 1, y_scale: 1, x_offset: 0, y_offset: 0, rotation: 0, loopAnimation: false, playAnimationByDefault: false, loopAnimation: false  };
+		requiredJson = { sprite: sDoesNotExists, displayName: "", object: noone, isPlaceable: false, isConsumable: false, isAttackable: false, attackType: AttackType.NONE, attackDamage: 0.0, knockbackStrength: 0.0, attackWidth: 1, attackHeight: 1, x_scale: 1, y_scale: 1, x_offset: 0, y_offset: 0, rotation: 0, loopAnimation: false, playAnimationByDefault: false, loopAnimation: false  };
 		requiredKeys = variable_struct_get_names(requiredJson);
 		keys = variable_struct_get_names(_json);
 

@@ -143,7 +143,7 @@ if(isBehindEnviromentalObject) {
 	image_alpha = 1;
 }
 
-if(holding != undefined && mouse_check_button_pressed(mb_left)) {
+if(!oInventory.opened && holding != undefined && mouse_check_button_pressed(mb_left)) {
 	isAttacking	= true;
 }
 
@@ -164,6 +164,13 @@ if(isAttacking) {
 			
 		} else if(holding.options.attackType == AttackType.RANGED) {
 			// TODO: Add ranged attack
+		}
+	} else if(holding.options.isConsumable){
+		if(holding.name == "bandages") {
+			healingAmount = 5;
+			oInventory.inventory.item_subtract("bandages", 1);
+			heal_object(self, healingAmount);
+			showMessage($"Healed for {healingAmount} health");
 		}
 	}
 }

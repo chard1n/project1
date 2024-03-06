@@ -128,6 +128,7 @@
     {"id":{"name":"Inventory","path":"scripts/Inventory/Inventory.yy",},},
     {"id":{"name":"draw_set","path":"scripts/draw_set/draw_set.yy",},},
     {"id":{"name":"oCollisionBox","path":"objects/oCollisionBox/oCollisionBox.yy",},},
+    {"id":{"name":"heal_object","path":"scripts/heal_object/heal_object.yy",},},
     {"id":{"name":"oButtonPlay","path":"objects/oButtonPlay/oButtonPlay.yy",},},
     {"id":{"name":"is_overlap","path":"scripts/is_overlap/is_overlap.yy",},},
     {"id":{"name":"oCampFire","path":"objects/oCampFire/oCampFire.yy",},},
