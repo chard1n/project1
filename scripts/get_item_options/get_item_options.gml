@@ -38,6 +38,8 @@ function get_item_options(argument0){
 		case "wood":
 			value = { sprite: sWood, displayName: "Wood", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
 			break;
+		case "rawCopper":
+			value = { sprite: sRawCopper, displayName: "Raw Copper", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
 	
 	}
 	return validateJson(value);

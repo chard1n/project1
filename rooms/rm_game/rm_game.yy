@@ -218,6 +218,7 @@
     {"name":"inst_3D6C67CB","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_7CD1432D","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_312A4648","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_47215CB6","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -242,6 +243,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D6C67CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCannibalSpawner","path":"objects/oCannibalSpawner/oCannibalSpawner.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":448.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CD1432D","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigTree2","path":"objects/oBigTree2/oBigTree2.yy",},"properties":[],"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":448.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_312A4648","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigTree1","path":"objects/oBigTree1/oBigTree1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":512.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_47215CB6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCopperRock","path":"objects/oCopperRock/oCopperRock.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":768.0,"y":320.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Enviroment","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Trees_front","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
