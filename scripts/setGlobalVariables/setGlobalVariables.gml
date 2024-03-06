@@ -6,7 +6,7 @@ function setGlobalVariables(){
 
 	global.collision_objects = [oBigTree1, oBigTree2, oPlane, oCampFire, oBigBoulder, oBorder];
 	global.environment_interactable_objects = [oPlayer, oCannibal];
-	global.collision_alpha_objects = [oBigTree1, oBigTree2, oBigBoulder];
+	global.collision_alpha_objects = [oBigTree1, oBigTree2, oBigBoulder, oBigBush];
 
 	global.messages = [];
 	global.debug = false;

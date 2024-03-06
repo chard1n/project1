@@ -219,6 +219,7 @@
     {"name":"inst_7CD1432D","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_312A4648","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_24397D95","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_6AEEBBA9","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -385,6 +386,7 @@
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D0DAE8E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigBush","path":"objects/oBigBush/oBigBush.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":-32.0,"y":2432.0,},
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E6379B7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigBush","path":"objects/oBigBush/oBigBush.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":-64.0,"y":960.0,},
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B95B4E1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigBush","path":"objects/oBigBush/oBigBush.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":32.0,"y":32.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6AEEBBA9","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigBush","path":"objects/oBigBush/oBigBush.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":736.0,"y":224.0,},
           ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Trees_back","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F187FE2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigTree2","path":"objects/oBigTree2/oBigTree2.yy",},"properties":[],"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":2720.0,"y":-270.0,},
