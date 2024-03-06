@@ -1,6 +1,8 @@
 function startDialogue(topic){
-	if(instance_exists(oDialogBox))
-	return;
+	if(instance_exists(oDialogBox)) {
+		instance_destroy(oDialogBox);	
+	}
+	//return;
 	
 	//spawn box
 	var inst = instance_create_depth(x, y, -999, oDialogBox);

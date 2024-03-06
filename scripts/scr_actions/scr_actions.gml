@@ -1,7 +1,5 @@
 #macro TEXT new TextAction
 
-
-
 function DialogueAction() constructor{
 	act  = function() { };
 }

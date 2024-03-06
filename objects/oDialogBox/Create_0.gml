@@ -5,7 +5,7 @@ input_delay = max_input_delay;
 
 //position
 margin = 16
-padding = 8
+padding = 20
 width = display_get_gui_width() / 2
 height = sprite_height;
 continue_message_y_offset = -20;

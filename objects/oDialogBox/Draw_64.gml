@@ -10,3 +10,7 @@ draw_set_font(text_font);
 draw_set_color(text_color);
 type(x + text_x, y + text_y, text, text_progress, text_width);
 draw_reset();
+
+draw_set_halign(fa_right);
+draw_text(x + width - padding / 2, y, $"{current_action + 1}/{array_length(actions)}");
+draw_reset();
