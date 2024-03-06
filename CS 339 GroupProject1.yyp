@@ -78,6 +78,7 @@
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},},
     {"id":{"name":"damage_object","path":"scripts/damage_object/damage_object.yy",},},
     {"id":{"name":"oBorder","path":"objects/oBorder/oBorder.yy",},},
+    {"id":{"name":"sRope","path":"sprites/sRope/sRope.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"topics","path":"scripts/topics/topics.yy",},},
     {"id":{"name":"sBoneClub","path":"sprites/sBoneClub/sBoneClub.yy",},},

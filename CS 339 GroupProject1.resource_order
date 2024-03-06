@@ -37,6 +37,7 @@
     {"name":"sDoesNotExists","order":12,"path":"sprites/sDoesNotExists/sDoesNotExists.yy",},
     {"name":"damage_object","order":8,"path":"scripts/damage_object/damage_object.yy",},
     {"name":"oBorder","order":18,"path":"objects/oBorder/oBorder.yy",},
+    {"name":"sRope","order":18,"path":"sprites/sRope/sRope.yy",},
     {"name":"topics","order":16,"path":"scripts/topics/topics.yy",},
     {"name":"sBoneClub","order":5,"path":"sprites/sBoneClub/sBoneClub.yy",},
     {"name":"oGrave","order":20,"path":"objects/oGrave/oGrave.yy",},
