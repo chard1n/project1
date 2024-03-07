@@ -1,1 +1,0 @@
-isInteractable = true;
