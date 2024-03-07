@@ -17,29 +17,33 @@ inventory.item_add("bandages", 8)
 
 
 // recipes
-inventory.recipe_add("electronicParts", [
+inventory.recipe_add("rope", [
 	{
-		name: "brokenPhone",
-		quantity: 1
+		name: "fiber",
+		quantity: 2
 	}], [{
-		name: "electronicParts",
+		name: "rope",
 		quantity: 1,
-		sprite: sElectronicParts,
-	}], sElectronicParts);
+		sprite: sRope,
+	}], sRope, "Used in some crafting recipes");
 	
-inventory.recipe_add("boneClub", [
+inventory.recipe_add("axe", [
 	{
-		name: "stick",
-		quantity: 1
+		name: "rock",
+		quantity: 5
 	},
 	{
-		name: "skull",
-		quantity: 1
-	}], [{
-		name: "boneClub",
+		name: "stick",
+		quantity: 2,
+	},
+	{
+		name: "rope",
 		quantity: 1,
-		sprite: sBoneClub,
-	}], sBoneClub, "Great for attacking enemies");
+	}], [{
+		name: "axe",
+		quantity: 1,
+		sprite: sAxe,
+	}], sAxe, "Used to break trees");
 	
 inventory.recipe_add("pickaxe", [
 	{
@@ -49,11 +53,130 @@ inventory.recipe_add("pickaxe", [
 	{
 		name: "stick",
 		quantity: 2,
+	},
+	{
+		name: "rope",
+		quantity: 1,
 	}], [{
 		name: "pickaxe",
 		quantity: 1,
 		sprite: sPickaxe,
 	}], sPickaxe, "Used to break large rocks");
+	
+	
+inventory.recipe_add("campFire", [
+	{
+		name: "wood",
+		quantity: 2
+	},
+	{
+		name: "coal",
+		quantity: 1
+	}], [{
+		name: "campFire",
+		quantity: 1,
+		sprite: sCampFire,
+	}], sCampFire, "Can be used to keep cannibals away");
+	
+inventory.recipe_add("boneClub", [
+	{
+		name: "stick",
+		quantity: 1
+	},
+	{
+		name: "skull",
+		quantity: 1
+	},
+	{
+		name: "rope",
+		quantity: 1,
+	}], [{
+		name: "boneClub",
+		quantity: 1,
+		sprite: sBoneClub,
+	}], sBoneClub, "Great for attacking enemies");
+	
+inventory.recipe_add("bandages", [
+	{
+		name: "herb",
+		quantity: 1
+	},
+	{
+		name: "cloth",
+		quantity: 2
+	}], [{
+		name: "bandages",
+		quantity: 1,
+		sprite: sBandages,
+	}], sBandages, "Great for healing your wounds");
+	
+inventory.recipe_add("copper", [
+	{
+		name: "rawCopper",
+		quantity: 1
+	},
+	{
+		name: "coal",
+		quantity: 2
+	}], [{
+		name: "copper",
+		quantity: 1,
+		sprite: sCopper,
+	}], sCopper, "Smelt raw copper into copper");
+	
+inventory.recipe_add("metal", [
+	{
+		name: "rawMetal",
+		quantity: 1
+	},
+	{
+		name: "coal",
+		quantity: 2
+	}], [{
+		name: "metal",
+		quantity: 1,
+		sprite: sMetal,
+	}], sMetal, "Smelt raw metal into metal");
+	
+inventory.recipe_add("electronicParts", [
+	{
+		name: "brokenPhone",
+		quantity: 1
+	}], [{
+		name: "electronicParts",
+		quantity: 1,
+		sprite: sElectronicParts,
+	}], sElectronicParts);
+
+inventory.recipe_add("copperWire", [
+	{
+		name: "copper",
+		quantity: 2
+	}], [{
+		name: "copperWire",
+		quantity: 1,
+		sprite: sCopperWire,
+	}], sCopperWire);
+	
+inventory.recipe_add("antenna", [
+	{
+		name: "copperWire",
+		quantity: 5
+	},
+	{
+		name: "metal",
+		quantity: 10
+	},
+	{
+		name: "rope",
+		quantity: 3
+	}], [{
+		name: "antenna",
+		quantity: 1,
+		sprite: sAntenna,
+	}], sAntenna, "Used to craft transponder");
+
+
 	
 	
 // UI INFORMATION //
