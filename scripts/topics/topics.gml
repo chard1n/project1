@@ -21,5 +21,11 @@ function setTopics(){
 		TEXT("Go back to your death location to collect your items."),
 
 	];
+	
+	global.topics[$ "TransponderActivated"] = [
+		TEXT("Calling for help..."),
+		TEXT("..."),
+		TEXT("Help has been contacted! They will arive at the beach"),
+	]	
 
 }

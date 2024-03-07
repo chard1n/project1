@@ -74,6 +74,9 @@ function get_item_options(argument0){
 		case "antenna":
 			value = { sprite: sAntenna, displayName: "Antenna", x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15 };
 			break;
+		case "transponder":
+			value = { sprite: sTempTransponderItem, displayName: "Transponder", object: oTransponder, isPlaceable: true, x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15 };
+			break;
 	}
 	return validateJson(value);
 }

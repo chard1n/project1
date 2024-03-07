@@ -188,11 +188,15 @@ inventory.recipe_add("transponder", [
 	{
 		name: "electronics",
 		quantity: 1
+	},
+	{
+		name: "copperWire",
+		quantity: 3
 	}], [{
 		name: "transponder",
 		quantity: 1,
-		sprite: sTempTransponder,
-	}], sTempTransponder, "May be useful to contact for help");
+		sprite: sTempTransponderItem,
+	}], sTempTransponderItem, "May be useful to contact for help");
 
 
 	
