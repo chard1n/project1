@@ -11,12 +11,6 @@ if(!typing) {
 	var horzMove = 0;
 }
 
-if(keyboard_check_pressed(ord("V"))) {
-	
-	player_died();
-	
-}
-
 if(oHealth <= 0) {
 	player_died();
 	oHealth = oMaxHealth
