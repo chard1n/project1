@@ -252,14 +252,20 @@ for(var recipe_index = 0; recipe_index < array_length(_recipies); recipe_index++
 			}
 		}
 		
+		draw_reset();
+		
 		requirement_string = $"REQ: {requirement_string}";
 		
+		draw_set_font(fn_Ubuntu_small);
+		text_align(fa_left, fa_middle);
 		max_width = 198;
 		if(string_width(requirement_string) > max_width) {
 			draw_text_ext(pos_x + 56, pos_y + 25 + 16, requirement_string, 16, max_width);
+			
 		} else {
 			draw_text(pos_x + 56, pos_y + 25 + 16, requirement_string);
 		}
+		draw_reset();
 		
 		if(!inventory.recipe_has(_recipies[recipe_index].name)) {
 			draw_set(color_inventory_disabled, 0.5);
