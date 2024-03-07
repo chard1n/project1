@@ -24,6 +24,8 @@ if(keyboard_check_pressed(global.interact_key)) {
 
 			strength = clamp(strength + stoke_amount,min_strength, max_strength);
 			
+			showMessage($"You stoked the first using a stick!");
+			
 		} else {
 			showMessage($"You need to have sticks to stoke the fire!");
 		}
@@ -39,4 +41,10 @@ if(strength > min_strength) {
 	sprite_index = sCampFireLit;
 } else {
 	sprite_index = sCampFireOut;
+}
+
+if((snd == undefined && distance_to_object(oPlayer) < 200) || (distance_to_object(oPlayer) < 200 && (snd != undefined && !audio_is_playing(snd) ))) {
+	snd = audio_play_sound(campfire_crackling_fireplace_sound_119594,10,true);	
+} else if(snd != undefined && distance_to_object(oPlayer) > 200) {
+	audio_stop_sound(snd)	
 }
