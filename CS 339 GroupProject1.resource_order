@@ -31,6 +31,7 @@
     {"name":"sRescueBoat","order":18,"path":"sprites/sRescueBoat/sRescueBoat.yy",},
     {"name":"oTransition","order":17,"path":"objects/oTransition/oTransition.yy",},
     {"name":"sMetal","order":14,"path":"sprites/sMetal/sMetal.yy",},
+    {"name":"sCopper","order":20,"path":"sprites/sCopper/sCopper.yy",},
     {"name":"sCannibal","order":6,"path":"sprites/sCannibal/sCannibal.yy",},
     {"name":"oCannibalSpawner","order":21,"path":"objects/oCannibalSpawner/oCannibalSpawner.yy",},
     {"name":"oBigTree2","order":9,"path":"objects/oBigTree2/oBigTree2.yy",},

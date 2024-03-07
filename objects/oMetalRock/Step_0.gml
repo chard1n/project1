@@ -11,8 +11,7 @@ if(isInteractable) {
 	if(!has_been_interacted && keyboard_check_pressed(global.interact_key)) {
 		if(collision_circle(x_center,y_center,interact_radius,oPlayer, false, true)) {
 			// What to do if interacted with
-			// TODO: Check if player is holding axe?
-			if(/*oPlayer.holding != undefined && oPlayer.holding.name == "axe"*/ true) {
+			if(oPlayer.holding != undefined && oPlayer.holding.name == "pickaxe") {
 				amount = irandom_range(1,2);
 				item = oInventory.inventory.item_add("rawMetal", amount);
 				doCollisionAlphaCheck = false;
@@ -21,7 +20,9 @@ if(isInteractable) {
 			
 				showMessage($"Collected {item.options.displayName}! {amount}x");
 			
-			} 
+			} else {
+				showMessage($"You need to be holding a pickaxe to break the metal rock!");
+			}
 		}
 	}
 }

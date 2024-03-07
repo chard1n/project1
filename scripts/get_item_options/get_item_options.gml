@@ -47,6 +47,9 @@ function get_item_options(argument0){
 		case "metal":
 			value = { sprite: sMetal, displayName: "Metal", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0};
 			break;
+		case "copper":
+			value = { sprite: sCopper, displayName: "Copper", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0};
+			break;
 		case "fiber":
 			value = { sprite: sFiber, displayName: "Fiber", x_scale: 0.8, y_scale: 0.8, x_offset: 0, y_offset: 0 };
 			break;

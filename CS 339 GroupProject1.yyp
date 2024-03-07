@@ -68,6 +68,7 @@
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
     {"id":{"name":"sMetal","path":"sprites/sMetal/sMetal.yy",},},
     {"id":{"name":"sCopperWire","path":"sprites/sCopperWire/sCopperWire.yy",},},
+    {"id":{"name":"sCopper","path":"sprites/sCopper/sCopper.yy",},},
     {"id":{"name":"sCannibal","path":"sprites/sCannibal/sCannibal.yy",},},
     {"id":{"name":"oCannibalSpawner","path":"objects/oCannibalSpawner/oCannibalSpawner.yy",},},
     {"id":{"name":"oBigTree2","path":"objects/oBigTree2/oBigTree2.yy",},},
