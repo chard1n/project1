@@ -3,13 +3,13 @@ function get_item_options(argument0){
 	switch(argument0) {
 		
 		case "boneClub":
-			value = { sprite: sBoneClub, displayName: "Bone Club", isAttackable: true, attackType: AttackType.MELEE, attackDamage: 2.5, attackWidth: 32, knockbackStrength: 32.0, attackHeight: 16, x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15 };
+			value = { sprite: sBoneClub, displayName: "Bone Club", isAttackable: true, attackType: AttackType.MELEE, attackDamage: 3.5, attackWidth: 64, knockbackStrength: 32.0, attackHeight: 64, x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15 };
 			break;
 		case "pickaxe":
 			value = { sprite: sPickaxe, displayName: "Pickaxe", isAttackable: true, attackType: AttackType.MELEE, attackDamage: 1.0, knockbackStrength: 64.0, attackWidth: 64, attackHeight: 64, x_scale: 0.8, y_scale: 0.8, x_offset: 15, y_offset: 10 };
 			break;
 		case "axe":
-			value = { sprite: sAxe, displayName: "Axe", x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15 };
+			value = { sprite: sAxe, displayName: "Axe", isAttackable: true, attackType: AttackType.MELEE, attackDamage: 2.0, knockbackStrength: 16.0, attackWidth: 64, attackHeight: 64, x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15 };
 			break;
 		case "bone":
 			value = { sprite: sBone, displayName: "Bone", x_scale: 0.5, y_scale: 0.5, x_offset: 10, y_offset: 15 };
@@ -24,7 +24,7 @@ function get_item_options(argument0){
 			value = { sprite: sBrokenPhone, displayName: "Broken Phone", x_scale: 0.8, y_scale: 0.8, x_offset: 15, y_offset: 13 };
 			break;
 		case "pocketknife":
-			value = { sprite: sPocketKnife, displayName: "Pocketknife", x_scale: 0.6, y_scale: 0.6, x_offset: 10, y_offset: 15 };
+			value = { sprite: sPocketKnife, displayName: "Pocketknife", isAttackable: true, attackType: AttackType.MELEE, attackDamage: 0.75, knockbackStrength: 32.0, attackWidth: 52, attackHeight: 64, x_scale: 0.6, y_scale: 0.6, x_offset: 10, y_offset: 15 };
 			break;
 		case "rock":
 			value = { sprite: sRock, displayName: "Rock", x_scale: 0.5, y_scale: 0.5, x_offset: 10, y_offset: 15 };
