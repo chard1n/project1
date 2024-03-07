@@ -6,5 +6,7 @@ if(keyboard_check_pressed(global.interact_key)) {
 		has_been_interacted = true;
 
 		startDialogue("TransponderActivated");
+		
+		instance_create_layer(3264,448,"Instances", oRescueBoat);
 	}
 }

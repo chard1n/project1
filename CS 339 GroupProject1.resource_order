@@ -101,6 +101,7 @@
     {"name":"is_overlap","order":7,"path":"scripts/is_overlap/is_overlap.yy",},
     {"name":"oTransponder","order":33,"path":"objects/oTransponder/oTransponder.yy",},
     {"name":"oCampFire","order":6,"path":"objects/oCampFire/oCampFire.yy",},
+    {"name":"rm_credits","order":2,"path":"rooms/rm_credits/rm_credits.yy",},
     {"name":"sRockRubble","order":12,"path":"sprites/sRockRubble/sRockRubble.yy",},
     {"name":"sGrave","order":7,"path":"sprites/sGrave/sGrave.yy",},
     {"name":"sBloodSplatter1","order":13,"path":"sprites/sBloodSplatter1/sBloodSplatter1.yy",},
