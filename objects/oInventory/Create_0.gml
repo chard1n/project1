@@ -143,7 +143,7 @@ inventory.recipe_add("electronics", [
 		name: "brokenPhone",
 		quantity: 1
 	}], [{
-		name: "electronicParts",
+		name: "electronics",
 		quantity: 1,
 		sprite: sElectronics,
 	}], sElectronics);
