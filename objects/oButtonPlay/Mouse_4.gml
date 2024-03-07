@@ -8,3 +8,4 @@ event_inherited();
 
 room_goto(rm_game);
 
+audio_play_sound(button_124476,0,false)

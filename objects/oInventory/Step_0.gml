@@ -1,7 +1,7 @@
 if(!opened) {
 	last_selected = noone;
 	selected_index = -1;
-	hovered_index = -1;
+	hovered_index = -1;	
 	return;	
 }
 

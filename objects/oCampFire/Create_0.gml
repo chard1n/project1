@@ -14,3 +14,4 @@ x_message_offset = 0;
 interact_radius = 64;
 
 has_been_interacted = false;
+audio_play_sound(campfire_crackling_fireplace_sound_119594,10,true);
