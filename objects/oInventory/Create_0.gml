@@ -138,15 +138,15 @@ inventory.recipe_add("metal", [
 		sprite: sMetal,
 	}], sMetal, "Smelt raw metal into metal");
 	
-inventory.recipe_add("electronicParts", [
+inventory.recipe_add("electronics", [
 	{
 		name: "brokenPhone",
 		quantity: 1
 	}], [{
 		name: "electronicParts",
 		quantity: 1,
-		sprite: sElectronicParts,
-	}], sElectronicParts);
+		sprite: sElectronics,
+	}], sElectronics);
 
 inventory.recipe_add("copperWire", [
 	{
@@ -165,7 +165,7 @@ inventory.recipe_add("antenna", [
 	},
 	{
 		name: "metal",
-		quantity: 10
+		quantity: 5
 	},
 	{
 		name: "rope",
@@ -175,6 +175,28 @@ inventory.recipe_add("antenna", [
 		quantity: 1,
 		sprite: sAntenna,
 	}], sAntenna, "Used to craft transponder");
+	
+inventory.recipe_add("transponder", [
+	{
+		name: "antenna",
+		quantity: 1
+	},
+	{
+		name: "metal",
+		quantity: 5
+	},
+	{
+		name: "electronics",
+		quantity: 1
+	},
+	{
+		name: "copperWire",
+		quantity: 3
+	}], [{
+		name: "transponder",
+		quantity: 1,
+		sprite: sTempTransponderItem,
+	}], sTempTransponderItem, "May be useful to contact for help");
 
 
 	
