@@ -2,8 +2,8 @@ if(collisions) ds_list_destroy(collisions);
 collisions = ds_list_create();
 
 if(doCollisionAlphaCheck) {
-	coll_rect_leaves = collision_rectangle_list(x+16, y+48, x+(sprite_width-32), y+240, global.environment_interactable_objects, false, true, collisions, false);
-	coll_rect_trunk = collision_rectangle_list(x+134, y+246, x+208, y+sprite_height, global.environment_interactable_objects, false, true, collisions, false);
+	collision_rectangle_list(x+64, y+100, x+(sprite_width-64), y+240, global.environment_interactable_objects, false, true, collisions, false);
+	collision_rectangle_list(x+134, y+246, x+208, y+sprite_height, global.environment_interactable_objects, false, true, collisions, false);
 }
 
 if(isInteractable) {
