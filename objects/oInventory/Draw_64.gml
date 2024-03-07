@@ -296,22 +296,24 @@ for(var recipe_index = 0; recipe_index < array_length(_recipies); recipe_index++
 			
 				draw_reset();
 				
-				// Draw description
-				desciption = _recipies[recipe_index].description;
-				if(desciption != "") {
-					desc_x = pos_x + ui_panel_left - 60;
-					desc_y =  pos_y + ui_inventory_box / 2;
-					draw_set_color(color_border);
-					x_pad = 2;
-					y_pad = 2;
-					draw_rectangle(desc_x - x_pad * 2, desc_y - string_height(desciption) - y_pad * 2, desc_x + (string_width(desciption)) + x_pad * 2, desc_y + (string_height(desciption)) + y_pad * 2, false);
+			}
+				
+			// Draw description
+			desciption = _recipies[recipe_index].description;
+			if(desciption != "") {
+				desc_x = pos_x + ui_panel_left - 60;
+				desc_y =  pos_y + ui_inventory_box / 2;
+				draw_set_color(color_border);
+				x_pad = 2;
+				y_pad = 2;
+				draw_rectangle(desc_x - x_pad * 2, desc_y - string_height(desciption) - y_pad * 2, desc_x + (string_width(desciption)) + x_pad * 2, desc_y + (string_height(desciption)) + y_pad * 2, false);
 
-					draw_set_color(color_background);
-					draw_rectangle(desc_x - x_pad, desc_y - string_height(desciption) - y_pad, desc_x + (string_width(desciption)) + x_pad, desc_y + (string_height(desciption)) + y_pad, false);
-					draw_reset();
-					draw_text(desc_x, desc_y - string_height(desciption) / 2, desciption);
-					draw_reset();
-				}
+				draw_set_color(color_background);
+				draw_rectangle(desc_x - x_pad, desc_y - string_height(desciption) - y_pad, desc_x + (string_width(desciption)) + x_pad, desc_y + (string_height(desciption)) + y_pad, false);
+				draw_reset();
+				draw_text(desc_x, desc_y - string_height(desciption) / 2, desciption);
+				draw_reset();
+				
 			}
 			
 		}
