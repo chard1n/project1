@@ -7,6 +7,8 @@ if (timer <= 0) {
 	    enemy.image_xscale = 3; 
 	    enemy.image_yscale = 3; 
 		
+		show_debug_message("tried to spawn!");
+		
 		show_debug_message("Distance to Player: " + string(dist));
 	}
 	

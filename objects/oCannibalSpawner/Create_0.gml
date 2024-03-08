@@ -1,6 +1,5 @@
-spawn_interval = 3600;
+spawn_interval = 60 * 30;
 timer = spawn_interval
 spawn_distance_from_player = 800;
 
-player = instance_find(oPlayer, 0); 
-dist = point_distance(x, y, player.x, player.y);
+dist = point_distance(x, y, oPlayer.x, oPlayer.y);

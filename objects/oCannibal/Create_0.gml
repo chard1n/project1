@@ -19,7 +19,7 @@ _hurtBox.y_offset = _hurtBox.height / 2 * -1;
 isBehindEnviromentalObject = false;
 
 eWanderingSpeed = 0.5;
-eHuntingSpeed = 1.0;
+eHuntingSpeed = 1.75;
 
 path = noone;
 tmp_path = noone;
