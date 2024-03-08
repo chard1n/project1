@@ -3,18 +3,7 @@ surf = noone;
 
 inventory = new Recipe();
 
-inventory.item_add("rock", 8);
-inventory.item_add("stick", 4);
-inventory.item_add("bone", 1);
-inventory.item_add("skull", 1);
 inventory.item_add("brokenPhone", 1);
-inventory.item_add("campFire", 1)
-
-inventory.item_add("pickaxe", 1)
-inventory.item_add("axe", 1)
-inventory.item_add("boneClub", 1)
-inventory.item_add("bandages", 8)
-
 
 // recipes
 inventory.recipe_add("rope", [
@@ -76,7 +65,7 @@ inventory.recipe_add("campFire", [
 		name: "campFire",
 		quantity: 1,
 		sprite: sCampFire,
-	}], sCampFire, "Great light source! Can be used to keep cannibals away.");
+	}], sCampFire, "Great light source! Can be used to keep cannibals away");
 	
 inventory.recipe_add("boneClub", [
 	{
@@ -122,7 +111,7 @@ inventory.recipe_add("copper", [
 		name: "copper",
 		quantity: 1,
 		sprite: sCopper,
-	}], sCopper, "Result from smelting raw copper.");
+	}], sCopper, "Result from smelting raw copper");
 	
 inventory.recipe_add("metal", [
 	{
@@ -136,7 +125,7 @@ inventory.recipe_add("metal", [
 		name: "metal",
 		quantity: 1,
 		sprite: sMetal,
-	}], sMetal, "Result from smelting raw metal.");
+	}], sMetal, "Result from smelting raw metal");
 	
 inventory.recipe_add("electronics", [
 	{
@@ -156,7 +145,7 @@ inventory.recipe_add("copperWire", [
 		name: "copperWire",
 		quantity: 1,
 		sprite: sCopperWire,
-	}], sCopperWire, "Used to craft the transponder.");
+	}], sCopperWire, "Used to craft the transponder");
 	
 inventory.recipe_add("antenna", [
 	{
