@@ -8,6 +8,7 @@
     {"name":"Tile Set","order":6,"path":"folders/Sprites/Tile Set.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"oMenuMusicController","order":36,"path":"objects/oMenuMusicController/oMenuMusicController.yy",},
     {"name":"sCampFireOut","order":13,"path":"sprites/sCampFireOut/sCampFireOut.yy",},
     {"name":"sPocketKnife","order":6,"path":"sprites/sPocketKnife/sPocketKnife.yy",},
     {"name":"sFiber","order":16,"path":"sprites/sFiber/sFiber.yy",},
@@ -31,6 +32,7 @@
     {"name":"oSkull","order":29,"path":"objects/oSkull/oSkull.yy",},
     {"name":"sBandages","order":23,"path":"sprites/sBandages/sBandages.yy",},
     {"name":"merge_number","order":1,"path":"scripts/merge_number/merge_number.yy",},
+    {"name":"oMenu","order":35,"path":"objects/oMenu/oMenu.yy",},
     {"name":"oDialogBox","order":19,"path":"objects/oDialogBox/oDialogBox.yy",},
     {"name":"oButtonQuit","order":14,"path":"objects/oButtonQuit/oButtonQuit.yy",},
     {"name":"sRescueBoat","order":11,"path":"sprites/sRescueBoat/sRescueBoat.yy",},
@@ -111,6 +113,7 @@
     {"name":"sInventory_Box","order":1,"path":"sprites/sInventory_Box/sInventory_Box.yy",},
     {"name":"sMetalRock","order":8,"path":"sprites/sMetalRock/sMetalRock.yy",},
     {"name":"sBorder","order":6,"path":"sprites/sBorder/sBorder.yy",},
+    {"name":"menuMusic","order":3,"path":"sounds/menuMusic/menuMusic.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"sBigBoulder","order":1,"path":"sprites/sBigBoulder/sBigBoulder.yy",},
     {"name":"sAntenna","order":19,"path":"sprites/sAntenna/sAntenna.yy",},

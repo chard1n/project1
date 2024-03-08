@@ -40,6 +40,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"oMenuMusicController","path":"objects/oMenuMusicController/oMenuMusicController.yy",},},
     {"id":{"name":"sCampFireOut","path":"sprites/sCampFireOut/sCampFireOut.yy",},},
     {"id":{"name":"sPocketKnife","path":"sprites/sPocketKnife/sPocketKnife.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
@@ -65,6 +66,7 @@
     {"id":{"name":"oSkull","path":"objects/oSkull/oSkull.yy",},},
     {"id":{"name":"sBandages","path":"sprites/sBandages/sBandages.yy",},},
     {"id":{"name":"merge_number","path":"scripts/merge_number/merge_number.yy",},},
+    {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},},
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
     {"id":{"name":"Recipe","path":"scripts/Recipe/Recipe.yy",},},
     {"id":{"name":"oDialogBox","path":"objects/oDialogBox/oDialogBox.yy",},},
@@ -163,6 +165,7 @@
     {"id":{"name":"sInventory_Box","path":"sprites/sInventory_Box/sInventory_Box.yy",},},
     {"id":{"name":"sMetalRock","path":"sprites/sMetalRock/sMetalRock.yy",},},
     {"id":{"name":"sBorder","path":"sprites/sBorder/sBorder.yy",},},
+    {"id":{"name":"menuMusic","path":"sounds/menuMusic/menuMusic.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"sBigBoulder","path":"sprites/sBigBoulder/sBigBoulder.yy",},},
     {"id":{"name":"sAntenna","path":"sprites/sAntenna/sAntenna.yy",},},
