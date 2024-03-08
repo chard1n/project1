@@ -14,7 +14,7 @@ continue_message_y_offset = -20;
 x = (display_get_gui_width() - width) /2;
 y = display_get_gui_height()- height - margin;
 
-text_font = fn_menu;
+text_font = fn_dialogBox;
 text_color = c_white;
 text_speed = 0.5;
 text_x = padding;
