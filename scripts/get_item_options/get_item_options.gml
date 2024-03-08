@@ -75,7 +75,10 @@ function get_item_options(argument0){
 			value = { sprite: sAntenna, displayName: "Antenna", x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15 };
 			break;
 		case "transponder":
-			value = { sprite: sTempTransponderItem, displayName: "Transponder", object: oTransponder, isPlaceable: true, x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15 };
+			value = { sprite: sTransponder, displayName: "Transponder", object: oTransponder, isPlaceable: true, x_scale: 0.8, y_scale: 0.8, x_offset: 10, y_offset: 15 };
+			break;
+		case "mysteriousBook":
+			value = { sprite: sMysteriousBook, displayName: "Absum_", x_scale: 0.5, y_scale: 0.5, x_offset: 10, y_offset: 15 };
 			break;
 	}
 	return validateJson(value);

@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sTempTransponder",
-    "path": "sprites/sTempTransponder/sTempTransponder.yy",
+    "name": "sTransponder",
+    "path": "sprites/sTransponder/sTransponder.yy",
   },
   "spriteMaskId": null,
   "visible": true,

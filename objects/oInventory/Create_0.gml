@@ -61,7 +61,7 @@ inventory.recipe_add("pickaxe", [
 		name: "pickaxe",
 		quantity: 1,
 		sprite: sPickaxe,
-	}], sPickaxe, "Used to break large rocks");
+	}], sPickaxe, "Used to break large rocks.");
 	
 	
 inventory.recipe_add("campFire", [
@@ -76,7 +76,7 @@ inventory.recipe_add("campFire", [
 		name: "campFire",
 		quantity: 1,
 		sprite: sCampFire,
-	}], sCampFire, "Can be used to keep cannibals away");
+	}], sCampFire, "Great light source! Can be used to keep cannibals away.");
 	
 inventory.recipe_add("boneClub", [
 	{
@@ -122,7 +122,7 @@ inventory.recipe_add("copper", [
 		name: "copper",
 		quantity: 1,
 		sprite: sCopper,
-	}], sCopper, "Smelt raw copper into copper");
+	}], sCopper, "Result from smelting raw copper.");
 	
 inventory.recipe_add("metal", [
 	{
@@ -136,7 +136,7 @@ inventory.recipe_add("metal", [
 		name: "metal",
 		quantity: 1,
 		sprite: sMetal,
-	}], sMetal, "Smelt raw metal into metal");
+	}], sMetal, "Result from smelting raw metal.");
 	
 inventory.recipe_add("electronics", [
 	{
@@ -146,7 +146,7 @@ inventory.recipe_add("electronics", [
 		name: "electronics",
 		quantity: 1,
 		sprite: sElectronics,
-	}], sElectronics);
+	}], sElectronics, "technology used for contacting help...");
 
 inventory.recipe_add("copperWire", [
 	{
@@ -156,7 +156,7 @@ inventory.recipe_add("copperWire", [
 		name: "copperWire",
 		quantity: 1,
 		sprite: sCopperWire,
-	}], sCopperWire);
+	}], sCopperWire, "Used to craft the transponder.");
 	
 inventory.recipe_add("antenna", [
 	{
@@ -174,7 +174,7 @@ inventory.recipe_add("antenna", [
 		name: "antenna",
 		quantity: 1,
 		sprite: sAntenna,
-	}], sAntenna, "Used to craft transponder");
+	}], sAntenna, "Used to craft the transponder");
 	
 inventory.recipe_add("transponder", [
 	{
@@ -195,8 +195,8 @@ inventory.recipe_add("transponder", [
 	}], [{
 		name: "transponder",
 		quantity: 1,
-		sprite: sTempTransponderItem,
-	}], sTempTransponderItem, "May be useful to contact for help");
+		sprite: sTransponder,
+	}], sTransponder, "Your only hope for survival...");
 
 
 	
