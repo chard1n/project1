@@ -1,1 +1,1 @@
-knockback_object(self, other, 1);
+knockback_object(self, other, 3);
