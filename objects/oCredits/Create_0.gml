@@ -7,7 +7,7 @@ subheader_extra_padding = 2;
 body_extra_padding = 1.5;
 
 text = [
-	{"type": "header", "text": "[NAME OF GAME]"},
+	{"type": "header", "text": "[Cannibal Mayhem]"},
 	{"type": "header", "text": "Credits"},
 	{"type": "subheader", "text": "Sounds"},
 	{"type": "body", "text": "Campfire - pixabay.com @SoundsForYou"},
