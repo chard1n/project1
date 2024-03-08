@@ -29,10 +29,19 @@ if(oPlayer.typing) {
 					amount = real(str);
 				}
 			}
+			
+			if(args[0] == "kill") {
+				player_died();
+			}
+			if(args[0] == "nextroom") {
+				room_goto_next();
+			} else {
 		
-			item = oInventory.inventory.item_add(args[0], amount);
+				item = oInventory.inventory.item_add(args[0], amount);
 
-			showMessage($"You got {item.options.displayName}! {amount}x");
+				showMessage($"You got {item.options.displayName}! {amount}x");
+			
+			}
 		
 			inputMessage = "";
 			

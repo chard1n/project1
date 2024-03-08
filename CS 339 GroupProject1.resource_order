@@ -67,6 +67,7 @@
     {"name":"sCannibalFire","order":13,"path":"sprites/sCannibalFire/sCannibalFire.yy",},
     {"name":"oCannibalFire","order":27,"path":"objects/oCannibalFire/oCannibalFire.yy",},
     {"name":"sGrass","order":14,"path":"sprites/sGrass/sGrass.yy",},
+    {"name":"oCredits","order":34,"path":"objects/oCredits/oCredits.yy",},
     {"name":"oDayNightCycle","order":2,"path":"objects/oDayNightCycle/oDayNightCycle.yy",},
     {"name":"oMessage","order":15,"path":"objects/oMessage/oMessage.yy",},
     {"name":"sGiantTent","order":12,"path":"sprites/sGiantTent/sGiantTent.yy",},

@@ -112,6 +112,7 @@
     {"id":{"name":"oCannibalFire","path":"objects/oCannibalFire/oCannibalFire.yy",},},
     {"id":{"name":"sGrass","path":"sprites/sGrass/sGrass.yy",},},
     {"id":{"name":"is_between","path":"scripts/is_between/is_between.yy",},},
+    {"id":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},},
     {"id":{"name":"oDayNightCycle","path":"objects/oDayNightCycle/oDayNightCycle.yy",},},
     {"id":{"name":"oMessage","path":"objects/oMessage/oMessage.yy",},},
     {"id":{"name":"sGiantTent","path":"sprites/sGiantTent/sGiantTent.yy",},},
