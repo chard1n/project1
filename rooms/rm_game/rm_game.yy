@@ -342,7 +342,9 @@
     {"name":"inst_3E62E02A","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_3E11A0B2","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_27A02336","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_14DBBDCF","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_7E910095","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_5EB702BA","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_68FE19C5","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -493,7 +495,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E62E02A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCollectibleStick","path":"objects/oCollectibleStick/oCollectibleStick.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":192.0,"y":192.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E11A0B2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCollectibleStick","path":"objects/oCollectibleStick/oCollectibleStick.yy",},"properties":[],"rotation":0.0,"scaleX":-2.0,"scaleY":-2.0,"x":262.0,"y":244.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27A02336","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCollectibleRock","path":"objects/oCollectibleRock/oCollectibleRock.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":160.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14DBBDCF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":416.0,"y":1056.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E910095","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCrate","path":"objects/oCrate/oCrate.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1440.0,"y":608.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5EB702BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCrate","path":"objects/oCrate/oCrate.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":2116.0,"y":1088.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68FE19C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1376.0,"y":672.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Enviroment","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Trees_front","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
