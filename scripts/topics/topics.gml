@@ -28,19 +28,15 @@ function setTopics(){
 		TEXT("Help has been contacted! They will arive at the beach"),
 	];
 	
+	global.topics[$ "PressToPlaceHelp"] = [
+		TEXT($"You have crafted a placeable item. Press \"{keytostring(global.place_key)}\" to place this item down"),
+	];
+	
 	global.topics[$ "GetInBoat"] = [
 		/*
 		TEXT("Don't worry baby girl, daddy is here"),
 		TEXT("*kisses*"),
 		*/
 	];
-	
-	global.topics[$ "MysteriousTent"] = [
-		TEXT("*You found a green book. The cover has a human eye on it.."),
-		TEXT("You open the book to the first page."),
-		TEXT("All you see are scribbled over drawings with a strange word written in red."),
-		TEXT("ABSUM"),
-		TEXT("'Hm, I wonder what it means'"),
-	]
 
 }

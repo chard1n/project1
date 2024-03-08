@@ -63,7 +63,11 @@ function Recipe() : Inventory() constructor {
 				}
 				
 				for(var product_index = 0; product_index < array_length(_recipies[index].products); product_index++) {
-					item_add(_recipies[index].products[product_index].name, _recipies[index].products[product_index].quantity, _recipies[index].products[product_index].sprite);
+					item_add(_recipies[index].products[product_index].name, _recipies[index].products[product_index].quantity);
+					
+					if(_recipies[index].products[product_index].name == "campFire" || _recipies[index].products[product_index].name == "transponder") {
+						startDialogue("PressToPlaceHelp");
+					}
 				}
 			}
 		}
