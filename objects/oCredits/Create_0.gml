@@ -8,15 +8,17 @@ body_extra_padding = 1.5;
 
 text = [
 	{"type": "header", "text": "[NAME OF GAME]"},
-	{"type": "header", "text": ""},
 	{"type": "header", "text": "Credits"},
 	{"type": "subheader", "text": "Sounds"},
 	{"type": "body", "text": "Campfire - pixabay.com @SoundsForYou"},
 	{"type": "body", "text": "Button Click - pixabay.com @UNIVERSFIELD"},
 	{"type": "body", "text": "Swing - pixabay.com @floraphonic"},
+	{"type": "body", "text": "Menu Music - youtube.com @Meremix"},
+	{"type": "body", "text": "Background Music - playonloop.com"},
 	{"type": "subheader", "text": "Code"},
 	{"type": "body", "text": "Inventory - youtube.com @GameMaker"},
 	{"type": "body", "text": "Day/Night Cycle - youtube.com @FriendlyCosmonaut"},
+	
 ]
 
 height = 0;
