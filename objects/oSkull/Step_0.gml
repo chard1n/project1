@@ -5,7 +5,7 @@ if(isInteractable) {
 		if(collision_circle(x_center,y_center,interact_radius,oPlayer, false, true)) {
 			if(true) {
 				amount = irandom_range(1,2);
-				item = oInventory.inventory.item_add("rock", amount);
+				item = oInventory.inventory.item_add("skull", amount);
 				has_been_interacted = true;
 				instance_destroy();
 			

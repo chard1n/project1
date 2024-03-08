@@ -6,7 +6,6 @@ if(isInteractable) {
 			if(true) {
 				amount = irandom_range(1,2);
 				item = oInventory.inventory.item_add("stick", amount);
-				doCollisionAlphaCheck = false;
 				has_been_interacted = true;
 				instance_destroy();
 			
