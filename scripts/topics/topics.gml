@@ -26,13 +26,17 @@ function setTopics(){
 		TEXT("Calling for help..."),
 		TEXT("..."),
 		TEXT("Help has been contacted! They will arive at the beach"),
-	]	
+	];
+	
+	global.topics[$ "PressToPlaceHelp"] = [
+		TEXT($"You have crafted a placeable item. Press \"{keytostring(global.place_key)}\" to place this item down"),
+	];
 	
 	global.topics[$ "GetInBoat"] = [
 		/*
 		TEXT("Don't worry baby girl, daddy is here"),
 		TEXT("*kisses*"),
 		*/
-	]
+	];
 
 }

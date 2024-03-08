@@ -5,7 +5,7 @@ function startDialogue(topic){
 	//return;
 	
 	//spawn box
-	var inst = instance_create_depth(x, y, -999, oDialogBox);
+	var inst = instance_create_depth(0, 0, -999, oDialogBox);
 	inst.setTopic(topic);
 }
 
