@@ -29,7 +29,7 @@ function setTopics(){
 	];
 	
 	global.topics[$ "PressToPlaceHelp"] = [
-		TEXT("You have crafted a placeable item. Press \"{keytostring(global.place_key)}\" to place this item down"),
+		TEXT($"You have crafted a placeable item. Press \"{keytostring(global.place_key)}\" to place this item down"),
 	];
 	
 	global.topics[$ "GetInBoat"] = [
