@@ -156,8 +156,10 @@ if(isAttacking) {
 			cBox.knockback_strength = holding.options.knockbackStrength;
 			cBox.damage = holding.options.attackDamage;
 			
+			if(sprite_frame == 0) audio_play_sound(swing, 1, false);
+			
 		} else if(holding.options.attackType == AttackType.RANGED) {
-			// TODO: Add ranged attack
+			// No time to add this :(
 		}
 	} else if(holding.options.isConsumable){
 		if(holding.name == "bandages") {

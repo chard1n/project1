@@ -28,6 +28,7 @@
     {"name":"oHurtBox","order":17,"path":"objects/oHurtBox/oHurtBox.yy",},
     {"name":"oObserver","order":11,"path":"objects/oObserver/oObserver.yy",},
     {"name":"oInputBox","order":19,"path":"objects/oInputBox/oInputBox.yy",},
+    {"name":"swing","order":3,"path":"sounds/swing/swing.yy",},
     {"name":"oSkull","order":29,"path":"objects/oSkull/oSkull.yy",},
     {"name":"sBandages","order":23,"path":"sprites/sBandages/sBandages.yy",},
     {"name":"merge_number","order":1,"path":"scripts/merge_number/merge_number.yy",},

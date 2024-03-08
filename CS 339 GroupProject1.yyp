@@ -62,6 +62,7 @@
     {"id":{"name":"oHurtBox","path":"objects/oHurtBox/oHurtBox.yy",},},
     {"id":{"name":"oObserver","path":"objects/oObserver/oObserver.yy",},},
     {"id":{"name":"oInputBox","path":"objects/oInputBox/oInputBox.yy",},},
+    {"id":{"name":"swing","path":"sounds/swing/swing.yy",},},
     {"id":{"name":"oSkull","path":"objects/oSkull/oSkull.yy",},},
     {"id":{"name":"sBandages","path":"sprites/sBandages/sBandages.yy",},},
     {"id":{"name":"merge_number","path":"scripts/merge_number/merge_number.yy",},},
