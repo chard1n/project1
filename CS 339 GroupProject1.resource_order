@@ -105,6 +105,7 @@
     {"name":"heal_object","order":17,"path":"scripts/heal_object/heal_object.yy",},
     {"name":"oButtonPlay","order":13,"path":"objects/oButtonPlay/oButtonPlay.yy",},
     {"name":"is_overlap","order":7,"path":"scripts/is_overlap/is_overlap.yy",},
+    {"name":"bgd_music","order":3,"path":"sounds/bgd_music/bgd_music.yy",},
     {"name":"oTransponder","order":33,"path":"objects/oTransponder/oTransponder.yy",},
     {"name":"oCampFire","order":6,"path":"objects/oCampFire/oCampFire.yy",},
     {"name":"rm_credits","order":2,"path":"rooms/rm_credits/rm_credits.yy",},

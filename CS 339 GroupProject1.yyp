@@ -155,6 +155,7 @@
     {"id":{"name":"heal_object","path":"scripts/heal_object/heal_object.yy",},},
     {"id":{"name":"oButtonPlay","path":"objects/oButtonPlay/oButtonPlay.yy",},},
     {"id":{"name":"is_overlap","path":"scripts/is_overlap/is_overlap.yy",},},
+    {"id":{"name":"bgd_music","path":"sounds/bgd_music/bgd_music.yy",},},
     {"id":{"name":"oTransponder","path":"objects/oTransponder/oTransponder.yy",},},
     {"id":{"name":"oCampFire","path":"objects/oCampFire/oCampFire.yy",},},
     {"id":{"name":"sHotbar_Box","path":"sprites/sHotbar_Box/sHotbar_Box.yy",},},
