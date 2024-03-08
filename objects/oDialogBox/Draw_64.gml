@@ -1,4 +1,4 @@
-continue_message = $"Click {keytostring(global.confirm_key)} to conitue";
+continue_message = $"Click {keytostring(global.confirm_key)} to Continue";
 
 draw_text(x + width / 2 - string_width(continue_message) / 2,y + continue_message_y_offset, continue_message);
 

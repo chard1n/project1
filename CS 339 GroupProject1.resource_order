@@ -8,7 +8,6 @@
     {"name":"Tile Set","order":6,"path":"folders/Sprites/Tile Set.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"oMenuMusicController","order":36,"path":"objects/oMenuMusicController/oMenuMusicController.yy",},
     {"name":"sCampFireOut","order":13,"path":"sprites/sCampFireOut/sCampFireOut.yy",},
     {"name":"sPocketKnife","order":6,"path":"sprites/sPocketKnife/sPocketKnife.yy",},
     {"name":"sFiber","order":16,"path":"sprites/sFiber/sFiber.yy",},
@@ -70,6 +69,7 @@
     {"name":"sCannibalFire","order":13,"path":"sprites/sCannibalFire/sCannibalFire.yy",},
     {"name":"oCannibalFire","order":27,"path":"objects/oCannibalFire/oCannibalFire.yy",},
     {"name":"sGrass","order":14,"path":"sprites/sGrass/sGrass.yy",},
+    {"name":"fn_dialogBox","order":3,"path":"fonts/fn_dialogBox/fn_dialogBox.yy",},
     {"name":"oCredits","order":34,"path":"objects/oCredits/oCredits.yy",},
     {"name":"oDayNightCycle","order":2,"path":"objects/oDayNightCycle/oDayNightCycle.yy",},
     {"name":"oMessage","order":15,"path":"objects/oMessage/oMessage.yy",},

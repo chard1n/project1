@@ -1,2 +1,1 @@
-audio_stop_all();
-instance_create_layer(0, 0, "Instances", oMenuMusicController);
+ audio_stop_sound(menuMusic);

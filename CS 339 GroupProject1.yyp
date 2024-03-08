@@ -40,7 +40,6 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"oMenuMusicController","path":"objects/oMenuMusicController/oMenuMusicController.yy",},},
     {"id":{"name":"sCampFireOut","path":"sprites/sCampFireOut/sCampFireOut.yy",},},
     {"id":{"name":"sPocketKnife","path":"sprites/sPocketKnife/sPocketKnife.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
@@ -114,6 +113,7 @@
     {"id":{"name":"sBone","path":"sprites/sBone/sBone.yy",},},
     {"id":{"name":"oCannibalFire","path":"objects/oCannibalFire/oCannibalFire.yy",},},
     {"id":{"name":"sGrass","path":"sprites/sGrass/sGrass.yy",},},
+    {"id":{"name":"fn_dialogBox","path":"fonts/fn_dialogBox/fn_dialogBox.yy",},},
     {"id":{"name":"is_between","path":"scripts/is_between/is_between.yy",},},
     {"id":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},},
     {"id":{"name":"oDayNightCycle","path":"objects/oDayNightCycle/oDayNightCycle.yy",},},
