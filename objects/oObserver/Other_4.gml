@@ -17,5 +17,6 @@ with(oCampFire) {
 updateGridCurrentStep = 0;
 updateGridSteps = 20;
 
+audio_play_sound(bgd_music, 0, true);
 
 startDialogue("StartTutorial");
