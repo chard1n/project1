@@ -143,7 +143,7 @@ inventory.recipe_add("electronics", [
 		name: "brokenPhone",
 		quantity: 1
 	}], [{
-		name: "electronicParts",
+		name: "electronics",
 		quantity: 1,
 		sprite: sElectronics,
 	}], sElectronics);
@@ -161,11 +161,11 @@ inventory.recipe_add("copperWire", [
 inventory.recipe_add("antenna", [
 	{
 		name: "copperWire",
-		quantity: 5
+		quantity: 2
 	},
 	{
 		name: "metal",
-		quantity: 5
+		quantity: 2
 	},
 	{
 		name: "rope",
@@ -183,7 +183,7 @@ inventory.recipe_add("transponder", [
 	},
 	{
 		name: "metal",
-		quantity: 5
+		quantity: 3
 	},
 	{
 		name: "electronics",

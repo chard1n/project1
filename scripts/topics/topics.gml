@@ -27,5 +27,12 @@ function setTopics(){
 		TEXT("..."),
 		TEXT("Help has been contacted! They will arive at the beach"),
 	]	
+	
+	global.topics[$ "GetInBoat"] = [
+		/*
+		TEXT("Don't worry baby girl, daddy is here"),
+		TEXT("*kisses*"),
+		*/
+	]
 
 }
