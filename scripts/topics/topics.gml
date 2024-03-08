@@ -29,7 +29,7 @@ function setTopics(){
 	];
 	
 	global.topics[$ "PressToPlaceHelp"] = [
-		TEXT($"You have crafted a placeable item. Press \"{keytostring(global.place_key)}\" to place this item down"),
+		TEXT("You have crafted a placeable item. Press \"{keytostring(global.place_key)}\" to place this item down"),
 	];
 	
 	global.topics[$ "GetInBoat"] = [
@@ -37,6 +37,14 @@ function setTopics(){
 		TEXT("Don't worry baby girl, daddy is here"),
 		TEXT("*kisses*"),
 		*/
+	];
+	
+	global.topics[$ "MysteriousTent"] = [
+		TEXT("*You look inside the tent and find a book.*"),
+		TEXT("The book has a human eye on the front cover..."),
+		TEXT("You flip to the first page, where the word 'ABSUM_' is written in red.."),
+		TEXT("*You might need this, you take it just in case"),
+		
 	];
 
 }
