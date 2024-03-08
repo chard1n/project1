@@ -12,7 +12,8 @@ function setTopics(){
 	
 		TEXT("You collected an old pocketknife..."),
 		TEXT($"To open your inventory, press \"{keytostring(global.inventory_key)}\". Click and move items into your hotbar to use them."),
-
+		TEXT($"To attack with a pocketknife, pickaxe, axe, or boneclub, press \"Left Mouse Button\"."),
+		
 	];
 
 	global.topics[$ "PlayerDied"] = [
@@ -33,10 +34,6 @@ function setTopics(){
 	];
 	
 	global.topics[$ "GetInBoat"] = [
-		/*
-		TEXT("Don't worry baby girl, daddy is here"),
-		TEXT("*kisses*"),
-		*/
 	];
 	
 	global.topics[$ "MysteriousTent"] = [
